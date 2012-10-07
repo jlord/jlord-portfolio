@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Project Page
+ * Template Name: Map Project Page
  * The template for displaying all pages.
  *
  * This is the template that displays all pages by default.
@@ -48,6 +48,7 @@
 		</div>
 
 		<div class="span3 projImgColumn">
+			<iframe width='780' height='400' frameBorder='0' src='http://a.tiles.mapbox.com/v3/jllord.mta.html#14/32.8366/-83.6377'></iframe>
 			<div class="content-img">
 		  <?php
 		    preg_match_all("/(<img [^>]*>)/",get_the_content(),$matches,PREG_PATTERN_ORDER);

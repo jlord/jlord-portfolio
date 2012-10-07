@@ -42,4 +42,9 @@
 
 </div>
 
+<script src="/wp-content/themes/Starkers/rainbow.min.js" type="text/javascript"></script> 
+<script src="/wp-content/themes/Starkers/rainbow.generic.js" type="text/javascript"></script> 
+<script src="/wp-content/themes/Starkers/rainbow.javascript.js" type="text/javascript"></script> 
+<script src="/wp-content/themes/Starkers/rainbow.css.js" type="text/javascript"></script> 
+
 <?php get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer') ); ?>

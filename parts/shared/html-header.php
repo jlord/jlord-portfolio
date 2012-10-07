@@ -13,16 +13,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Remove if you're not building a responsive site. (But then why would you do such a thing?) -->
 		
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico"/>
-		
-		<!--  -->
-		<script src="/wp-content/themes/Starkers/sheetsee.js?0"></script>
-		<script src="/wp-content/themes/Starkers/tabletop.js" type="text/javascript"></script> 
- 		<script src="/wp-content/themes/Starkers/ICanHaz.js" type="text/javascript"></script> 
- 		<script src="/wp-content/themes/Starkers/rainbow.min.js" type="text/javascript"></script> 
- 		<script src="/wp-content/themes/Starkers/rainbow.generic.js" type="text/javascript"></script> 
- 		<script src="/wp-content/themes/Starkers/rainbow.javascript.js" type="text/javascript"></script> 
- 		<script src="/wp-content/themes/Starkers/rainbow.css.js" type="text/javascript"></script> 
+		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.png"/>
+
 		<?php wp_head(); ?>
 		<script type="text/javascript">
 		  var _gaq = _gaq || [];

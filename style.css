@@ -83,6 +83,8 @@ small {font-family: Open Sans, Arial, sans-serif; font-size: 10px;}
 
 .textHighlight {background: #E5E53E; padding: 2px 5px;}
 
+.content-img a:hover {background: transparent;}
+
 body {margin: 0px; background: #efefef; color: #333;}
 #pageWrapper {margin: 12px; background: #fff; box-shadow: 0 0 5px #888; box-shadow: 0 0 5px #888; min-width: 1050px; min-height: 800px; }
 #wrapper {position: relative; width: 1000px; margin: auto;	}
@@ -136,6 +138,7 @@ li a img {padding-bottom: 5px;}
 .projSubTitle {font-family: Merriweather; font-style: italic; font-size: 14px; padding-bottom: 6px;}
 .projectDescription {font-family: Merriweather; font-size: 14px; line-height: .7em;}
 .theMeta {font-family: Open Sans; font-size: 9px; color: #777; text-transform: uppercase; font-weight: normal; padding-bottom: 8px;}
+
 
 footer {bottom: 34px; overflow: auto; min-width: 1000px; text-align: center;}
 

@@ -55,6 +55,10 @@
 
 </div> 
 
+<script src="/wp-content/themes/Starkers/sheetsee.js?0"></script>
+<script src="/wp-content/themes/Starkers/tabletop.js" type="text/javascript"></script> 
+<script src="/wp-content/themes/Starkers/ICanHaz.js" type="text/javascript"></script> 
+
 <script id="instagram" type="text/html">
   <table>
   {{#rows}}
