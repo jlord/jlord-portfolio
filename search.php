@@ -13,7 +13,7 @@
 <div id="content" class="searchPage">
 <?php if ( have_posts() ): ?>
 		<div class="span1 contact">
-			<img src="http://localhost:8888/wp-content/uploads/2012/10/circle_me.png" width="231.25px">
+			<img src="/wp-content/uploads/me_city2.png" width="231.25px">
 	</div>
 	
 <div class="span3">
@@ -41,7 +41,7 @@
 </div>
 <?php else: ?>
 		<div class="span1 contact">
-			<img src="http://localhost:8888/wp-content/uploads/2012/10/circle_me.png" width="231.25px">
+			<img src="/wp-content/uploads/me_4wheeler2.png" width="231.25px">
 	</div>
 	<div class="span3">
 <h1>Dang!</h1>

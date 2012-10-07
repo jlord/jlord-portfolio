@@ -57,10 +57,8 @@
 </article>
 <div class="span1">
 	<div id="blogSidebar">
-	<h4>Tags</h4>
-	<p>Cars, Streets, Views, Speed, Buildings, Trucks, Cake, Coffee, Height, Shadow, Maps, History</p>	
-	<h4>Entries of Note</h4>
-	<p>Cars, Streets, Views, Speed, Buildings, Trucks, Cake, Coffee, Height, Shadow, Maps, History</p>
+	<h4>Blog Life</h4>
+	<p>Me: on urban design, cities and web dev.</p>	
 	</div>
 </div>
 

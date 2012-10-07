@@ -6,7 +6,7 @@
 <!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 	<head>
 		<title><?php bloginfo( 'name' ); ?><?php wp_title( '|' ); ?></title>
-		<link href="/wp-content/themes/starkers/rainbow.github.css?0" media="screen" rel="stylesheet" type="text/css">
+		<link href="/wp-content/themes/Starkers/rainbow.github.css?0" media="screen" rel="stylesheet" type="text/css">
 
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	  	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,13 +16,13 @@
 		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico"/>
 		
 		<!--  -->
-		<script src="/wp-content/themes/starkers/sheetsee.js?0"></script>
-		<script src="/wp-content/themes/starkers/tabletop.js" type="text/javascript"></script> 
- 		<script src="/wp-content/themes/starkers/ICanHaz.js" type="text/javascript"></script> 
- 		<script src="/wp-content/themes/starkers/rainbow.min.js" type="text/javascript"></script> 
- 		<script src="/wp-content/themes/starkers/rainbow.generic.js" type="text/javascript"></script> 
- 		<script src="/wp-content/themes/starkers/rainbow.javascript.js" type="text/javascript"></script> 
- 		<script src="/wp-content/themes/starkers/rainbow.css.js" type="text/javascript"></script> 
+		<script src="/wp-content/themes/Starkers/sheetsee.js?0"></script>
+		<script src="/wp-content/themes/Starkers/tabletop.js" type="text/javascript"></script> 
+ 		<script src="/wp-content/themes/Starkers/ICanHaz.js" type="text/javascript"></script> 
+ 		<script src="/wp-content/themes/Starkers/rainbow.min.js" type="text/javascript"></script> 
+ 		<script src="/wp-content/themes/Starkers/rainbow.generic.js" type="text/javascript"></script> 
+ 		<script src="/wp-content/themes/Starkers/rainbow.javascript.js" type="text/javascript"></script> 
+ 		<script src="/wp-content/themes/Starkers/rainbow.css.js" type="text/javascript"></script> 
 		<?php wp_head(); ?>
 		<script type="text/javascript">
 		  var _gaq = _gaq || [];

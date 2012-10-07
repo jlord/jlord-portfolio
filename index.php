@@ -36,7 +36,7 @@
 <div class="span1">
 	<div id="blogSidebar">
 	<h4>Blog Life</h4>
-	<p>Thoughts on urban design, cities and web dev.</p>	
+	<p>Me: on urban design, cities and web dev.</p>	
 	</div>
 </div>
 
