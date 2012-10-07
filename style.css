@@ -1,0 +1,321 @@
+/*
+Theme Name: 	Starkers
+Theme URI: 		http://viewportindustries.com/products/starkers
+Description: 	The totally nude Wordpress theme!
+Version: 		4.0
+Author: 		Elliot Jay Stocks & Keir Whitaker
+Author URI: 	http://viewportindustries.com
+Tags: 			starkers, naked, clean, basic
+*/
+
+/*
+===========================
+CONTENTS:
+
+01 Sensible defaults
+02 Typography
+03 Media queries 
+===========================
+*/
+
+/* ---------------------------------------------------------------------------------------------------------- 
+01 Sensible defaults ----------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+@import "css/reset.css";
+
+div,
+article,
+section,
+header,
+footer,
+nav,
+li					{ position:relative; /* For absolutely positioning elements within containers (add more to the list if need be) */ }
+.group:after 		{ display:block; height:0; clear:both; content:"."; visibility:hidden; /* For clearing */ }
+body 				{ background:#fff; /* Don't forget to style your body to avoid user overrides */ }
+::-moz-selection 	{ background:#44FFB4; color:#333; }
+::selection 		{ background:#44FFB4; color:#333; }
+
+/* ---------------------------------------------------------------------------------------------------------- 
+02 Typography -----------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+/*
+
+14 / 16	= 		0.875em 		(14px equivalent)
+16 / 16	= 		1em 			(16px equivalent)
+18 / 16 = 		1.125em 		(18px equivalent)
+21 / 16 = 		1.3125em 		(21px equivalent)
+24 / 16 = 		1.5em 			(24px equivalent)
+30 / 16 = 		1.875em 		(30px equivalent)
+
+*/
+
+body,
+input,
+textarea 			{ /* We strongly recommend you declare font-weight using numerical values, but check to see which weights you're exporting first */ }
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 					{ /* This helps to identify headings at the initial build stage, but you should write something more precise later on */ }
+
+h3 {text-transform: uppercase; font-family: Open Sans; font-weight: 700;}
+
+/* PAGE */
+p {margin: 0px; padding: 0px; font-family: Merriweather, Garamond, Georgia, serif; font-size: 14px; color: #333;}
+#content p {line-height: 1.5em; margin-bottom: 8px;}
+a {color: #777; text-decoration: none;}
+/*a:hover {color: #E5E53E; border-bottom: 1px dotted #E5E53E;}*/
+a:hover {background: #E5E53E;}
+h1 {font-size: 22px;}
+h2 {font-family: Open Sans, Arial, sans-serif;}
+h4 {margin: 0px; padding: 0px 0px 8px 0px; font-family: Open Sans; text-transform: uppercase; font-size: 12px; font-weight: 300;}
+h5 {font-family: Open Sans, Arial, sans-serif; text-transform: uppercase; letter-spacing: .1em; font-size: 10px; font-weight: 700; }
+i {font-family: Merriweather; font-style: italic; font-size: 10px;}
+
+.left {float: left;}
+.right {float: right;}
+#tcenter {text-align: center; margin:	0px auto; width: 100px; }
+.clear {clear: both;}
+small {font-family: Open Sans, Arial, sans-serif; font-size: 10px;}
+
+.textHighlight {background: #E5E53E; padding: 2px 5px;}
+
+body {margin: 0px; background: #efefef; color: #333;}
+#pageWrapper {margin: 12px; background: #fff; box-shadow: 0 0 5px #888; box-shadow: 0 0 5px #888; min-width: 1050px; min-height: 800px; }
+#wrapper {position: relative; width: 1000px; margin: auto;	}
+
+/* HEADER */
+header {width: 1000px; overflow: auto; padding-bottom: 10px; border-bottom: 3px solid #e6e6e6; margin: 0px; }
+/*background: url(gradient_bagette8.png); background-position: center bottom; background-repeat: no-repeat; background-size: 1000px;*/
+/*header {width: 1000px; overflow: auto;  position: fixed; z-index: 10; padding-bottom: 1px;border-bottom: 3px solid #333; margin: 0px; top: 0px;}*/
+.logo {-webkit-transition: all 0.5s ease-out; -moz-transition: all 0.5s ease; -o-transition: all 0.5s ease; -webkit-transform: rotate(-5deg); -moz-transform: rotate(-5deg); -o-transform: rotate(-5deg);}
+.logo:hover {-webkit-transform: rotate(5deg); -moz-transform: rotate(5deg); -o-transform: rotate(5deg);}
+#card {text-align: center; padding: 20px 0px;}
+#nav {width: 100%; padding: 0px; margin: 0px;}
+header ul {position: relative; display: inline-block; list-style: none; margin: 0px; padding: 0px;}
+
+.workNav a {float: left; color: #333; padding: 0px; margin: 0px; }
+.workNav a:hover {background: #E5E53E; padding: 0px; margin: 0px;}
+
+
+header li {float: left; padding: 5px; font-family: Merriweather, Georgia, serif; font-size: 12px; margin: 0px;}
+header li a {padding: 0px; border: none; color: #333; margin: 0px;}
+.category {font-style: italic; font-family: Merriweather;}
+.field {margin: 8px 0px; letter-spacing: .2em; font-weight: 700; font-family: Open Sans, Arial, sans-serif;}
+.name {font-size: 11px;}
+li a img {padding-bottom: 5px;}
+
+
+/* CONTENT */
+#content {overflow: auto; padding: 30px 0px 80px 0px;}
+/*#content {overflow: auto; padding: 195px 0px 50px 0px;}*/
+.capTitle {text-transform: uppercase; font-family: Open Sans; font-weight: 700; font-size: 18px; }
+#content ul {list-style: none; margin: 0px; padding: 0px 0px 10px 0px;}
+#content li {font-family: Merriweather; font-size: 12px; margin: 0px; line-height: 2em;}
+.contact img {margin-bottom: 30px;}
+.page img, .search img, .single img  {max-width: 743.75px;}
+.content-img img {padding-bottom: 18px;}
+#content.projectPage p, #content.searchPage p {font-size: 14px; line-height: 1.4em;}
+
+.span1 {width: 231.25px; margin: 0px 25px 0px 0px; float: left;}
+.span2 {width: 487.5px; margin: 0px 25px 0px 0px; float: left;}
+.span3 {width: 743.75px; margin: 0px 25px 0px 0px; float: left;}
+.span4 {width: 1000px; margin: 0px; float: left;}
+.span2:last-child, .span1:last-child, .span3:last-child, .thumbnail:last-child {margin: 0px;}
+.row {width: 1000px; padding: 0px 0px 25px 0px; margin: 0px; float: left;}
+.thumbnail {width: 231.25px; height: 150px; background: #efefef; margin: 0px 25px 0px 0px; float: left;}
+.fixed {position: fixed; z-index: 10px;}
+/*.projImgColumn {position: relative; left: 256.25px;}*/
+
+
+.projTitle {font-family: Open Sans; font-size: 14px; text-transform: uppercase; font-weight: 700; padding-bottom: 8px;}
+.projTitle a {color: #333;}
+.projSubTitle {font-family: Merriweather; font-style: italic; font-size: 14px; padding-bottom: 6px;}
+.projectDescription {font-family: Merriweather; font-size: 14px; line-height: .7em;}
+.theMeta {font-family: Open Sans; font-size: 9px; color: #777; text-transform: uppercase; font-weight: normal; padding-bottom: 8px;}
+
+footer {bottom: 34px; overflow: auto; min-width: 1000px; text-align: center;}
+
+/* POSTS */
+.post {padding-bottom: 25px; border-bottom: 1px dotted #e6e6e6; margin-bottom: 35px;}
+.postTitle {font-family: Merriweather; font-size: 33px; font-weight: 700; padding-bottom: 24px;}
+time, .postDate {font-family: Open Sans; letter-spacing: .2em; font-size: 9px; color: #777; text-transform: uppercase; padding-bottom: 25px;}
+.postImg {padding-bottom: 12px;}
+/*.postBody{font-size: 18px; line-height: 1.2em; padding-bottom: 14px;}*/
+.postMeta {border-top: 2px solid #333; padding-top: 8px; height: 70px; float: right; margin: 0px 0px 25px 25px;}
+.tags {font-family: Open Sans; letter-spacing: .2em; font-size: 9px; color: #777; text-transform: uppercase; }
+.post p a, .loop p a {padding-bottom: 1px; border-bottom: 1px solid #44FFB4;}
+.post p, #content p {font-size: 18px; line-height: 1.8em; padding-bottom: 14px;}
+.post-to-fro {}
+.aTag::after {content: ', '}
+.aTag:last-child::after {content: ''}
+
+
+
+/* PROJECT PAGE */
+#post-nav {height: 22px; margin-top: 20px;}
+.nextPageNav a {float: right;}
+.prevPageNav a {float: left;}
+.nextPageNav, .prevPageNav   {position: relative; font-size: 13px;}
+
+
+#comments h2 {font-family: Open Sans, Arial, sans-serif; text-transform: uppercase; font-size: 10px; padding-bottom: 8px;}
+#comments .commentAuthor {font-family: Open Sans, Arial, sans-serif; font-weight: 700; font-size: 14px;}
+#commentBody {background: #eeeeee; padding: 19px; margin-bottom: 12px;}
+#comment {margin: 0px 10px 0px 0px;}
+#reply-title, #content .logged-in-as {font-family: Open Sans, Arial, sans-serif; font-size: 14px; padding-top: 14px;}
+#content .form-allowed-tags {font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 11px; color: #acacac; float: left;}
+#commentform {padding: 12px 0px;}
+#commentBody p {font-size: 14px; padding-bottom: 0px; line-height: normal;}
+#commentBody time {padding-bottom: 10px;}
+#content .comment-notes {font-family: Open Sans, Arial, sans-serif; font-size: 12px;}
+#content .comment-form-author, #content .comment-form-email, #content .comment-form-url {font-family: Open Sans, Arial, sans-serif; font-size: 14px; font-weight: 700; text-transform: uppercase;}
+#author, #email, #url {margin: 0px 8px;}
+input	{border: 0px; border-bottom: 1px dotted #333; font-family: Merriweather, Georgia, serif; font-size: 13px; padding: 6px; background: none;}
+textarea {padding: 6px; font-family: Merriweather, Georgia, serif; font-size: 13px; background: #eeeeee; border: none;}
+#submit {background: #E5E53E; border: none; font-family: Open Sans, Arial, sans-serif; font-size: 12px; text-transform: uppercase; padding: 3px 8px;}
+
+/* ARCHIVE */
+.archive h1 {font-size: 22px; padding-bottom: 12px;}
+.archive .postDate {padding-bottom: 12px;}
+#content.archivePage p {font-size: 14px; line-height: normal;}
+#content article {padding-bottom: 24px;}
+#content.archivePage a {color: #333;}
+.archivePage h2 {font-family: Open Sans, Arial, sans-serif; font-weight: 500;}
+
+
+/* BLOG LOOP */
+.blogLoop a {color: #333;}
+.loop article {padding-bottom: 20px; border-bottom: 1px dotted #ACACAC; margin-bottom: 20px;}
+#content.loop li {padding: 0px 0px; line-height: normal;}
+
+/* FOUR OH FOUR */
+.fourOh h1 {font-family: Merriweather; font-size: 33px; font-weight: 700; padding-bottom: 24px;}
+
+
+
+/* BLOG SIDEBAR */
+#blogSidebar, #blogSidebar p {text-align: right; color: #888; width: 200.25px; }
+#blogSidebar p {padding-bottom: 14px; font-size: 10px; font-family: Open Sans, Arial, sans-serif;}
+#blogSidebar {padding-left: 30px;}
+
+/* ABOUT */
+.biobody {font-size: 17px;}
+#bioInfo {padding-top: 30px;}
+.about h3, .projectPage h3 {padding: 0px 0px 10px 0px;}
+.about h6 {padding: 0px 0px 10px 0px; font-weight: 600;}
+
+/* SEARCH */
+#searchform {float: left;}
+#searchsubmit {background: #eeeeee; border: none; font-family: Open Sans, Arial, sans-serif; font-size: 12px; text-transform: uppercase; padding: 3px 8px; display: none;}
+.screen-reader-text {font-family: Open Sans, Arial, sans-serif; text-transform: lowercase; font-size: 10px;}
+.searchPage h2 {font-family: Merriweather; font-size: 22px; font-weight: 500; padding-bottom: 18px;}
+.searchPage h1, .dashboard h1 {font-family: Merriweather; font-size: 33px;font-weight: 700; padding-bottom: 18px;}
+
+/* THE META */
+#content.projectPage li {font-family: Open Sans, Arial, sans-serif; font-size: 9px; text-transform: uppercase;}
+.post-meta-key {display: none;}
+
+/* DASHBOARD */
+#tweet p {font-size: 12px; padding-bottom: 0px; margin-bottom: 0px; line-height: 1.5em;}
+#tweet {background: #eeeeee; padding: 12px;}
+#tweetBox h3 {margin-bottom: 12px;}
+#tweetBox {padding-bottom: 24px;}
+
+#instagram {}
+.instaCaption {font-family: Merriweather, Georgia, serif; font-size: 12px; padding: 7px 0px 10px 11px; background: #eeeeee;}
+.instaImg {background: #eeeeee; width: 100%; padding: 11px;}
+.dashboard .postDate {padding: 10px 0px;}
+
+#pocketReader {overflow: auto;}
+
+
+div.thumbnail.mellow {
+	opacity:.1;	
+	filter: alpha(opacity=10); 
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)"; 
+}
+
+div.thumbnail.mellow.active {
+	opacity:1;
+	filter: alpha(opacity=10); 
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)"; 
+}
+div {display:block;}
+
+div.thumbnail img {width:100%;}
+
+a.active {border-bottom: 1px solid #E5E53E;}
+
+
+
+
+/*
+
+44FFB4
+
+Bootstrap Button - 
+border: none; margin-left: 0;
+-webkit-border-bottom-left-radius: 4px;
+border-bottom-left-radius: 4px;
+-webkit-border-top-left-radius: 4px;
+border-top-left-radius: 4px;
+-moz-border-radius-bottomleft: 4px;
+-moz-border-radius-topleft: 4px;
+-webkit-border-top-right-radius: 4px;
+border-top-right-radius: 4px;
+-webkit-border-bottom-right-radius: 4px;
+border-bottom-right-radius: 4px;
+-moz-border-radius-topright: 4px;
+-moz-border-radius-bottomright: 4px;
+display: inline-block;
+padding: 4px 14px;
+margin-bottom: 0;
+font-size: 14px;
+line-height: 20px;
+color: #333;
+text-align: center;
+text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+vertical-align: middle;
+cursor: pointer;
+background-color: whiteSmoke;
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#E6E6E6));
+background-image: -webkit-linear-gradient(top, white, #E6E6E6);
+background-image: -o-linear-gradient(top, white, #E6E6E6);
+background-image: linear-gradient(to bottom, white, #E6E6E6);
+background-image: -moz-linear-gradient(top, white, #E6E6E6);
+background-repeat: repeat-x;
+border: 1px solid #BBB;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+border-color: #E6E6E6 #E6E6E6 #BFBFBF;
+border-bottom-color: #A2A2A2;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);*/
+
+
+/* ---------------------------------------------------------------------------------------------------------- 
+03 Media queries (using a mobile-first approach) ------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+/* 400 and up */
+@media screen and (min-width:400px) {
+
+					{ /* Place your styles here for all widths greater than 400px */ }
+
+}
+
+/* Retina Display */
+@media screen and (-webkit-min-device-pixel-ratio:2) {
+
+					{ /* Place your styles here for all 'Retina' screens */ }
+
+}
