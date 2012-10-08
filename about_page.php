@@ -26,6 +26,7 @@
 			<h3 class="capTitle">Jessica Lord</h3>
 			<h6><small>Hi</small></h6>
 			<p class="biobody">I believe in cities for people - this is the guiding principal of my work. Urban Design is a unique field whose moves have a deep reaching effect on our lives from health to happiness. The most meaningful work for me is communicating the impact of our cities be it a diagram, a map or with the help of JavaScript.</p>
+			<p class="biobody">For more details on my experience as an architect, urban designer and Code for America Fellow, see here (soon).</p>
 			<p class="biobody">Born in Warner Robins, Georgia, I now live in Oakland, California. <a href="http://mailto:to.jlord@gmail.com">Let me know</a> if you have a project in mind.</p>
 		
 		<div id="bioInfo" class="span3">
@@ -58,7 +59,11 @@
 				<li>Georgia Institute of Technology, Architecture</li>
 			</ul>
 			<h6><small>Skills</small></h6>
-			<ul><li>Urban and Architectural Design, graphic design, diagraming, static and web mapping, Adobe Suite, CSS, HTML, Javascript, Wordpress PHP.</li></ul>
+			<ul>
+				<li>Urban and Architectural Design, graphic design, diagraming, static and web mapping, Adobe Suite, CSS, HTML, Javascript, Wordpress PHP.</li></ul>
+			<ul>
+				<li>Was LEED ND and LEED BD&C but they lapsed this year during my Code for America Fellowship. </li>
+			</ul>
 			<h6><small>Speaking</small></h6>
 			<ul>
 				<li>State of the Map, 2012</li>

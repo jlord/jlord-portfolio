@@ -25,18 +25,19 @@
 		</div>
 		<div class="row">
 			<div class="thumbnail graphic"><a href="/work/common-scale/"><img class="thumb" src="/wp-content/uploads/streetsystem_thumb.png"></a></div>
-			<div class="thumbnail map"><a href="#"><img class="thumb" src="/wp-content/uploads/plannersguide_thumb.png"></a></div>
-			<div class="thumbnail"></div>
-			<div class="thumbnail"></div>
+			<div class="thumbnail map graphic"><a href="/work/apa-planners-guide/"><img class="thumb" src="/wp-content/uploads/plannersguide_thumb.png"></a></div>
+			<div class="thumbnail web"><a href="/work/see-penny-work/"><img class="thumb" src="/wp-content/uploads/seepennywork_thumb.png"></a></div>
+			<div class="thumbnail web"><a href="/work/stuart-street/"><img class="thumb" src="/wp-content/uploads/stuart_thumb.jpg"></a></div>
+
 		</div>
 		<div class="row">
-			<div class="thumbnail"></div>
-			<div class="thumbnail"></div>
-			<div class="thumbnail"></div>
-			<div class="thumbnail"></div>
+			<div class="thumbnail graphic"><a href="/work/bpma/"><img class="thumb" src="/wp-content/uploads/bpma_thumb.jpg"></a></div>
+			<div class="thumbnail graphic"><a href="/work/arch/"><img class="thumb" src="/wp-content/uploads/arch_thumb.jpg"></a></div>
+			<div class="thumbnail fun"><a href="/work/summer/"><img class="thumb" src="/wp-content/uploads/summer_thumb.png"></a></div>
+			<div class="thumbnail graphic fun"><a href="/work/ecab/"><img class="thumb" src="/wp-content/uploads/ecab_thumb.png"></a></div>
 		</div>
 		<div class="row">
-			<div class="thumbnail"></div>
+			<div class="thumbnail graphic fun"><a href="/work/book-cover/"><img class="thumb" src="/wp-content/uploads/hollycover_thumb.jpg"></a></div>
 			<div class="thumbnail"></div>
 			<div class="thumbnail"></div>
 			<div class="thumbnail"></div>
