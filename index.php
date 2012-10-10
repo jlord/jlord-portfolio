@@ -33,7 +33,7 @@
 <?php endif; ?>
 </div>
 
-<div class="span1">
+<div class="span1 noMobile">
 	<div id="blogSidebar">
 	<h4>Blog Life</h4>
 	<p>Me: on urban design, cities and web dev.</p>	

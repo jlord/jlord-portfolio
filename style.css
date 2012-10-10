@@ -77,7 +77,7 @@ i {font-family: Merriweather; font-style: italic; font-size: 10px;}
 
 .left {float: left;}
 .right {float: right;}
-#tcenter {text-align: center; margin:	0px auto; width: 100px; }
+.tcenter {text-align: center; margin:	0px auto;}
 .clear {clear: both;}
 small {font-family: Open Sans, Arial, sans-serif; font-size: 10px;}
 
@@ -97,6 +97,7 @@ header {max-width: 1000px; overflow: auto; padding-bottom: 10px; border-bottom: 
 .logo:hover {-webkit-transform: rotate(5deg); -moz-transform: rotate(5deg); -o-transform: rotate(5deg);}
 #card {text-align: center; padding: 20px 0px;}
 #nav {width: 100%;}
+#navMobile {display: none;}
 header ul {position: relative; display: inline-block; list-style: none; margin: 0px; padding: 0px;}
 
 .workNav a {float: left; color: #333; padding: 0px; margin: 0px; }
@@ -140,7 +141,7 @@ li a img {padding-bottom: 5px;}
 .theMeta {font-family: Open Sans; font-size: 9px; color: #777; text-transform: uppercase; font-weight: normal; padding-bottom: 8px;}
 
 
-footer {bottom: 34px; overflow: auto; min-width: 1000px; text-align: center;}
+footer {bottom: 34px; overflow: auto; text-align: center;}
 
 /* POSTS */
 .post {padding-bottom: 25px; border-bottom: 1px dotted #e6e6e6; margin-bottom: 35px;}
@@ -321,4 +322,46 @@ box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05
 
 					{ /* Place your styles here for all 'Retina' screens */ }
 
+}
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 979px) {
+#wrapper {position: relative; max-width: 979px; margin: 0px auto;	}
+.row {max-width: 979px; padding: 0px 0px 25px 0px; margin: 0px; float: left;}
+.thumbnail {max-width: 23.5%; height: auto; background: #efefef; margin: 0 2% 0 0; float: left;}
+.thumbnail:last-child {margin: 0 0 0 0;}
+
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+#wrapper {position: relative; max-width: 767px; margin: 0px auto;	}
+.row {max-width: 767px; padding: 0px 0px 25px 0px; margin: 0px; float: left;}
+.thumbnail {max-width: 23.5%; height: auto; background: #efefef; margin: 0 2% 0 0; float: left;}
+.thumbnail:last-child {margin: 0 0 0 0;}
+#tweetBox {padding-top: 24px;}
+.noMobile {display: none;}
+.span3 {max-width: 100%; margin: 0px;}
+
+
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+#wrapper {position: relative; max-width: 480px; margin: 0px auto;	}
+.row {max-width: 100%; padding: 0px 0px 25px 0px; margin: 0px; float: left;}
+.thumbnail {max-width: 480px; height: auto; background: #efefef; margin: 0 0 25px 0; float: left;}
+.thumbnail:last-child {margin: 0 0 0 0;}
+#pageWrapper {margin: 12px; background: #fff; box-shadow: 0 0 5px #888; box-shadow: 0 0 5px #888; padding: 0px 30px; min-height: 800px; }
+#nav {display: none;}
+#navMobile {display: inherit;}
+.mobileTweetEmail {padding: 0px 90px;}
+.field {font-size: 12px;}
+.name {font-size: 20px;}
+.span3 {max-width: 100%;}
+.span1, .span2, .span3, .span4 {margin: 0px;}
+#tweetBox {padding-top: 24px;}
+.madeBy {margin-top: 10px;}
+.post p, #content p {font-size: 14px; line-height: 1.8em; padding-bottom: 14px;}
+.noMobile {display: none;}
 }

@@ -41,9 +41,9 @@
 		</div>
 		<div class="row">
 			<div class="thumbnail graphic fun"><a href="/work/book-cover/"><img class="thumb" src="/wp-content/uploads/hollycover_thumb.jpg"></a></div>
-			<div class="thumbnail"></div>
-			<div class="thumbnail"></div>
-			<div class="thumbnail"></div>
+			<div class="thumbnail graphic fun"><a href="/work/book-cover/"><img class="thumb" src="/wp-content/uploads/hollycover_thumb.jpg"></a></div>
+			<div class="thumbnail graphic fun"><a href="/work/book-cover/"><img class="thumb" src="/wp-content/uploads/hollycover_thumb.jpg"></a></div>
+			<div class="thumbnail graphic fun"><a href="/work/book-cover/"><img class="thumb" src="/wp-content/uploads/hollycover_thumb.jpg"></a></div>
 		</div>		
 	</div>
 
