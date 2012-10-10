@@ -17,6 +17,9 @@
 ?>
 <?php get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header-work' ) ); ?>
 	<div id="content" class="workPage">
+		<div class="span4">
+			<h4>Hello! I'm working on this. Also finishing up CfA. This gets less love right now. But I'm slowing getting it all up.</h4>
+		</div>
 		<div class="row">
 			<div class="thumbnail map"><a href="/work/boston-map/"><img class="thumb" src="/wp-content/uploads/boston_thumb.jpg"></a></div>
 			<div class="thumbnail web"><a href="/work/file-bakery/"><img class="thumb" src="/wp-content/uploads/filebakery-thumb.png"></a></div>

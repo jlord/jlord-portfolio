@@ -85,18 +85,18 @@ small {font-family: Open Sans, Arial, sans-serif; font-size: 10px;}
 
 .content-img a:hover {background: transparent;}
 
-body {margin: 0px; background: #efefef; color: #333;}
-#pageWrapper {margin: 12px; background: #fff; box-shadow: 0 0 5px #888; box-shadow: 0 0 5px #888; min-width: 1050px; min-height: 800px; }
-#wrapper {position: relative; width: 1000px; margin: auto;	}
+body {margin: 0px; background: #efefef; color: #333; width: 100%;}
+#pageWrapper {margin: 12px; background: #fff; box-shadow: 0 0 5px #888; box-shadow: 0 0 5px #888; padding: 0px 40px; min-height: 800px; }
+#wrapper {position: relative; max-width: 1000px; margin: 0px auto;	}
 
 /* HEADER */
-header {width: 1000px; overflow: auto; padding-bottom: 10px; border-bottom: 3px solid #e6e6e6; margin: 0px; }
+header {max-width: 1000px; overflow: auto; padding-bottom: 10px; border-bottom: 3px solid #e6e6e6; margin: 0px; }
 /*background: url(gradient_bagette8.png); background-position: center bottom; background-repeat: no-repeat; background-size: 1000px;*/
 /*header {width: 1000px; overflow: auto;  position: fixed; z-index: 10; padding-bottom: 1px;border-bottom: 3px solid #333; margin: 0px; top: 0px;}*/
 .logo {-webkit-transition: all 0.5s ease-out; -moz-transition: all 0.5s ease; -o-transition: all 0.5s ease; -webkit-transform: rotate(-5deg); -moz-transform: rotate(-5deg); -o-transform: rotate(-5deg);}
 .logo:hover {-webkit-transform: rotate(5deg); -moz-transform: rotate(5deg); -o-transform: rotate(5deg);}
 #card {text-align: center; padding: 20px 0px;}
-#nav {width: 100%; padding: 0px; margin: 0px;}
+#nav {width: 100%;}
 header ul {position: relative; display: inline-block; list-style: none; margin: 0px; padding: 0px;}
 
 .workNav a {float: left; color: #333; padding: 0px; margin: 0px; }
@@ -122,13 +122,13 @@ li a img {padding-bottom: 5px;}
 .content-img img {padding-bottom: 18px;}
 #content.projectPage p, #content.searchPage p {font-size: 14px; line-height: 1.4em;}
 
-.span1 {width: 231.25px; margin: 0px 25px 0px 0px; float: left;}
-.span2 {width: 487.5px; margin: 0px 25px 0px 0px; float: left;}
-.span3 {width: 743.75px; margin: 0px 25px 0px 0px; float: left;}
-.span4 {width: 1000px; margin: 0px; float: left;}
+.span1 {max-width: 231.25px; margin: 0px 25px 0px 0px; float: left;}
+.span2 {max-width: 487.5px; margin: 0px 25px 0px 0px; float: left;}
+.span3 {max-width: 743.75px; margin: 0px 25px 0px 0px; float: left;}
+.span4 {max-width: 1000px; margin: 0px; float: left;}
 .span2:last-child, .span1:last-child, .span3:last-child, .thumbnail:last-child {margin: 0px;}
-.row {width: 1000px; padding: 0px 0px 25px 0px; margin: 0px; float: left;}
-.thumbnail {width: 231.25px; height: 150px; background: #efefef; margin: 0px 25px 0px 0px; float: left;}
+.row {max-width: 1000px; padding: 0px 0px 25px 0px; margin: 0px; float: left;}
+.thumbnail {max-width: 231.25px; height: 150px; background: #efefef; margin: 0px 25px 0px 0px; float: left;}
 .fixed {position: fixed; z-index: 10px;}
 /*.projImgColumn {position: relative; left: 256.25px;}*/
 
@@ -253,7 +253,7 @@ div.thumbnail img {width:100%;}
 
 a.active {border-bottom: 1px solid #E5E53E;}
 
-
+#content.workPage h4 {font-family: Merriweather, Georgia, Baskerville, serif; font-size: 11px; padding-bottom: 16px; font-weight: 700; letter-spacing: .1em; text-align: center;}
 
 
 /*
