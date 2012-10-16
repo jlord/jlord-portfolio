@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Thumbnail Page
+ * Template Name: Alternate Thumbnail Page
  * The template for displaying all pages.
  *
  * This is the template that displays all pages by default.
@@ -28,13 +28,14 @@
 		</div>
 		<div class="row">
 			<div class="thumbnail graphic"><a href="/work/common-scale/"><img class="thumb" src="/wp-content/uploads/streetsystem_thumb.png"></a></div>
-			<div class="thumbnail map graphic"><a href="/work/apa-planners-guide/"><img class="thumb" src="/wp-content/uploads/plannersguide_thumb.png"></a></div>
-			<div class="thumbnail web"><a href="/work/see-penny-work/"><img class="thumb" src="/wp-content/uploads/seepennywork_thumb.png"></a></div>
+			<div class="double_thumbnail"><p>communicating urban issues in beautiful, accessible ways using equal parts urban planning, design and code.</p></div>
+<!-- 			<div class="thumbnail map graphic"><a href="/work/apa-planners-guide/"><img class="thumb" src="/wp-content/uploads/plannersguide_thumb.png"></a></div>
+			<div class="thumbnail web"><a href="/work/see-penny-work/"><img class="thumb" src="/wp-content/uploads/seepennywork_thumb.png"></a></div> -->
 			<div class="thumbnail web"><a href="/work/stuart-street/"><img class="thumb" src="/wp-content/uploads/stuart_thumb.jpg"></a></div>
 
 		</div>
 		<div class="row">
-			<div class="thumbnail graphic fun map"><a href="/work/new-orleans-map/"><img class="thumb" src="/wp-content/uploads/nola_thumb.png"></a></div>
+			<div class="thumbnail graphic fun"><a href="/work/new-orleans-map/"><img class="thumb" src="/wp-content/uploads/nola_thumb.png"></a></div>
 			<div class="thumbnail graphic"><a href="/work/arch/"><img class="thumb" src="/wp-content/uploads/arch_thumb.jpg"></a></div>
 			<div class="thumbnail fun"><a href="/work/summer/"><img class="thumb" src="/wp-content/uploads/summer_thumb.png"></a></div>
 			<div class="thumbnail graphic fun"><a href="/work/ecab/"><img class="thumb" src="/wp-content/uploads/ecab_thumb.png"></a></div>

@@ -26,11 +26,17 @@
 			<h3 class="capTitle">Jessica Lord</h3>
 			<h6><small>Hi</small></h6>
 			<p class="biobody">I believe in cities for people - this is the guiding principal of my work. Urban Design is a unique field whose moves have a deep reaching effect on our lives from health to happiness. The most meaningful work for me is communicating the impact of our cities be it a diagram, a map or with the help of JavaScript.</p>
-			<p class="biobody">For more details on my experience as an architect, urban designer and Code for America Fellow, see here (soon).</p>
 			<p class="biobody">Born in Warner Robins, Georgia, I now live in Oakland, California. <a href="http://mailto:to.jlord@gmail.com">Let me know</a> if you have a project in mind.</p>
 		
-		<div id="bioInfo" class="span3">
-		<div class="span1 contact">
+			<h3 class="capTitle">Cities + Tech</h3>
+			<ul><li>After an urban design study abroad year in Paris my senior year of college I shifted my focus from architecture to urban design. While working in architecture after graduation I quickly learned new Building Information Modeling software
+				and started visualizing the built environment, working on single family and multi-family scale projects from concept to construction documents as well as earning LEED BD&C accreditation. Working for the City of Boston in the Boston Redevelopment Authority's
+				Urban Design Technology group I contributed to and visualized design guidelines, height regulations, project reviews and earned LEED ND accreditation. I worked across departments often with Economic Development and the Mayor's Office of New Urban Mechanics. 
+				In 2012 I was accepted as a Code for America Fellow and focused on designing and building lightweight technology for city government. 
+
+		</li></ul><p></p>
+
+			<div class="span1 contact">
 			<h3 class="capTitle">Contact</h3>
 			<h6><small>e Ways</small></h6>
 			<ul>
@@ -67,9 +73,8 @@
 			<h6><small>Speaking</small></h6>
 			<ul>
 				<li>State of the Map, 2012</li>
-				<li>Code for America Summit, 2012</li>
+				<li><a href="http://www.youtube.com/watch?v=Q76bKK229aM" target="_blank">Code for America Summit, 2012</a></li>
 			</ul>
-		</div>
 		</div>
 
 
