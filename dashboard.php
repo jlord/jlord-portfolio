@@ -16,17 +16,19 @@
 ?>
 <?php get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 <div id="content" class="dashboard">
-<div class="span1">
-	<h1>Dashboard</h1>
-	<p>Much of this is powered through spreadsheets filled by <a href="http://www.iftt.com" target="_blank">iftt.com</a> 
-		plus <a href="http://builtbybalance.com/Tabletop/" target="_blank">tabletop.js</a> in a mashup I call <a href="http://jllord.github.com/sheetsee.js" target="_blank">sheetsee.js</a>.</p>
-</div>
-<div class="span1 pocketBox">
-	<h3>Lastest Reads from Pocket</h3>
-	<div id="pocketReader"></div>
-</div><!-- end span1 -->
+<div class="span4">
 	<div class="span1">
-		<div id="tweetBox">
+		<h1>Dashboard</h1>
+		<p>Much of this is powered through spreadsheets filled by <a href="http://www.iftt.com" target="_blank">iftt.com</a> 
+			plus <a href="http://builtbybalance.com/Tabletop/" target="_blank">tabletop.js</a> in a mashup I call <a href="http://jllord.github.com/sheetsee.js" target="_blank">sheetsee.js</a>.</p>
+		<div class="instaBox">
+			<h3>Lastest Instagram</h3>
+			<div id="instagram"></div></div>
+	</div>
+
+	<div class="span1 pocketBox">
+
+	<div id="tweetBox">
 		<?php
 		// Your twitter username.
 		$username = "jllord";
@@ -45,17 +47,22 @@
 		echo stripslashes($prefix) . parse_feed($twitterFeed) . stripslashes($suffix);
 		?>
 		</div>
+		<h3>Lastest Reads from Pocket</h3>
+		<div id="pocketReader"></div>
 
-		<div class="span1 instaBox">
-			<h3>Lastest Instagram</h3>
-		<div id="instagram"></div>
+
+	</div>
+
+	<div class="span2 mapBox">
+		<h3>This Crazy CfA Year</h3>
+		<div id="mapHolder">
+			<iframe class="mapFrame" frameBorder='0' src='http://a.tiles.mapbox.com/v3/jllord.whereIbeen.html#1/37.8575/-100.5469'></iframe>
+			<small>My location data collected with <a href="http://www.openpaths.cc" target="_blank">openpaths.cc</a> and maped with <a href="http://www.mapbox.com/tilemill" target="_blank">TileMill</a>.</small>
 		</div>
-</div><!-- end span1 -->
-<div class="span1">
-	<h3>What Will Go Here!?</h3>
-	<p class="topSpace">I don't know! I'll think about it.</p>
-	
-</div><!-- end span1 -->
+	</div>
+
+
+</div>
 
 
 </div> 
@@ -106,7 +113,7 @@
 		var pocketData = data
 
  		var pocketReader = ich.pocketReader({
-    	"rows": getLastFive(pocketData)
+    	"rows": getLastFour(pocketData)
  		})
  		document.getElementById('pocketReader').innerHTML = pocketReader; 
 		}

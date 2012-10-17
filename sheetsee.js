@@ -14,12 +14,12 @@ function getLast(array) {
   return array
 }
 
-function getLastFive(array) {
-  if (array.length < 5)
+function getLastFour(array) {
+  if (array.length < 4)
     return array
   else
     theLength = array.length
-  array = [array[theLength-1], array[theLength-2], array[theLength-3], array[theLength-4], array[theLength-5]]
+  array = [array[theLength-1], array[theLength-2], array[theLength-3], array[theLength-4]]
     return array
 }
 

@@ -235,7 +235,7 @@ textarea {padding: 6px; font-family: Merriweather, Georgia, serif; font-size: 13
 .instaImg {background: #eeeeee; width: 100%; padding: 11px;}
 .dashboard .postDate {padding: 10px 0px;}
 
-#pocketReader {overflow: auto;}
+#pocketReader {overflow: auto; padding-bottom: 18px; }
 .topSpace {padding-top: 18px;}
 
 div.thumbnail.mellow {
@@ -258,8 +258,8 @@ a.active {border-bottom: 1px solid #E5E53E;}
 #content.workPage h4 {font-family: Merriweather, Georgia, Baskerville, serif; font-size: 11px; padding-bottom: 16px; font-weight: 700; letter-spacing: .1em; text-align: center;}
 
 .edu {margin: 0px;}
-
-
+#mapHolder {padding-top: 12px; }
+.mapFrame {width: 100%; height: 500px;}
 /*
 
 44FFB4
