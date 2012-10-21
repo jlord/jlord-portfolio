@@ -327,27 +327,31 @@ box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05
 
 }
 /* Portrait tablet to landscape and desktop */
-@media (max-width: 979px) {
+@media (max-width: 1024px) {
+.span3 img {max-width: 100%; height: auto;}
 #wrapper {position: relative; max-width: 979px; margin: 0px auto;	}
 .row {max-width: 979px; padding: 0px 0px 25px 0px; margin: 0px; float: left;}
 .thumbnail {max-width: 23.5%; height: auto; background: #efefef; margin: 0 2% 0 0; float: left;}
 .thumbnail:last-child {margin: 0 0 0 0;}
+.span3 {max-width: 72%; margin: 0px;}
 
 
 }
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+.span3 img {max-width: 100%; height: auto;}
 #wrapper {position: relative; max-width: 767px; margin: 0px auto;	}
 .row {max-width: 767px; padding: 0px 0px 25px 0px; margin: 0px; float: left;}
 .thumbnail {max-width: 23.5%; height: auto; background: #efefef; margin: 0 2% 0 0; float: left;}
 .thumbnail:last-child {margin: 0 0 0 0;}
 #tweetBox {padding-top: 24px;}
 .noMobile {display: none;}
-.span3 {max-width: 100%; margin: 0px;}
+.span3 {max-width: 61%; margin: 0px;}
 }
 
 @media (max-width: 480px) {
+.span3 img {max-width: 100%; height: auto;}
 #wrapper {position: relative; max-width: 480px; margin: 0px auto;	}
 .row {max-width: 100%; padding: 0px 0px 0 0px; margin: 0px; float: left;}
 .thumbnail {max-width: 48%; height: auto; background: #efefef; margin: 0 4% 4% 0; float: left;}
@@ -370,6 +374,7 @@ box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05
  
 /* Landscape phones and down */
 @media (max-width: 380px) {
+.span3 img {max-width: 100%; height: auto;}
 #wrapper {position: relative; max-width: 480px; margin: 0px auto;	}
 .row {max-width: 100%; padding: 0px 0px 25px 0px; margin: 0px; float: left;}
 .thumbnail {max-width: 480px; height: auto; background: #efefef; margin: 0 0 25px 0; float: left;}

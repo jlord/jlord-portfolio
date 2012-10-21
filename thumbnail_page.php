@@ -42,8 +42,8 @@
 		<div class="row">
 			<div class="thumbnail graphic fun"><a href="/work/book-cover/"><img class="thumb" src="/wp-content/uploads/hollycover_thumb.jpg"></a></div>
 			<div class="thumbnail graphic"><a href="/work/bpma/"><img class="thumb" src="/wp-content/uploads/bpma_thumb.jpg"></a></div>
-			<div class="thumbnail fun map"><a href="/work/sabatical/"><img class="thumb" src="/wp-content/uploads/jlordtravel_thumb.jpg"></a></div>
-			<div class="thumbnail graphic fun"><a href="/work/book-cover/"><img class="thumb" src="/wp-content/uploads/hollycover_thumb.jpg"></a></div>
+			<div class="thumbnail fun map"><a href="/work/sabbatical/"><img class="thumb" src="/wp-content/uploads/jlordtravel_thumb.jpg"></a></div>
+			<div class="thumbnail graphic fun"><a href="/work/id/"><img class="thumb" src="/wp-content/uploads/braid_thumb.jpg"></a></div>
 		</div>		
 	</div>
 
