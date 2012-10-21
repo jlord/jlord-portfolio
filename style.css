@@ -326,19 +326,20 @@ box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05
 					{ /* Place your styles here for all 'Retina' screens */ }
 
 }
-/* Portrait tablet to landscape and desktop */
+/* landscape tablet */
 @media (max-width: 1024px) {
 .span3 img {max-width: 100%; height: auto;}
 #wrapper {position: relative; max-width: 979px; margin: 0px auto;	}
 .row {max-width: 979px; padding: 0px 0px 25px 0px; margin: 0px; float: left;}
 .thumbnail {max-width: 23.5%; height: auto; background: #efefef; margin: 0 2% 0 0; float: left;}
 .thumbnail:last-child {margin: 0 0 0 0;}
-.span3 {max-width: 72%; margin: 0px;}
-
+.projectPage .span3, .bio.span3 {max-width: 72%; margin: 0px;}
+.span2 {max-width: 61%}
+.mapBox {max-width: 44%;}
 
 }
 
-/* Landscape phone to portrait tablet */
+/* portrait tablet */
 @media (max-width: 768px) {
 .span3 img {max-width: 100%; height: auto;}
 #wrapper {position: relative; max-width: 767px; margin: 0px auto;	}
@@ -347,7 +348,11 @@ box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05
 .thumbnail:last-child {margin: 0 0 0 0;}
 #tweetBox {padding-top: 24px;}
 .noMobile {display: none;}
-.span3 {max-width: 61%; margin: 0px;}
+.projectPage .span3 {max-width: 61%; margin: 0px;}
+.aboutPage .span3 {max-width: 61%;}
+.aboutPage .span1, .aboutPage .span2, .siteInfo.span3 {max-width: 100%;}
+.pocketBox, .mapBox {max-width: 61%; margin: 0px;}
+
 }
 
 @media (max-width: 480px) {
@@ -369,7 +374,8 @@ box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05
 .post p, #content p {font-size: 14px; line-height: 1.8em; padding-bottom: 14px;}
 .noMobile {display: none;}
 .projectPage img {width: 100%; height: auto;}
-.span1 {max-width: 100%;}
+.span1, .mapBox {max-width: 100%;}
+
 }
  
 /* Landscape phones and down */
@@ -394,6 +400,8 @@ box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05
 .projectPage img {width: 100%; height: auto;}
 .span1 {max-width: 100%;}
 header li {font-size: 11px;}
+.mapBox {max-width: 100%;}
+
 }
 
 
