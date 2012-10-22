@@ -48,6 +48,9 @@
 		</div>
 
 		<div class="span3 projImgColumn">
+			<span class="video"><?php $key="video"; echo get_post_meta($post->ID, $key, true); ?></span>
+			<span class="webmap"><?php $key="webmap"; echo get_post_meta($post->ID, $key, true); ?></span>
+
 			<div class="content-img">
 		  <?php
 		    preg_match_all("/(<img [^>]*>)/",get_the_content(),$matches,PREG_PATTERN_ORDER);

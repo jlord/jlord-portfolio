@@ -260,6 +260,12 @@ a.active {border-bottom: 1px solid #E5E53E;}
 .edu {margin: 0px;}
 #mapHolder {padding-top: 12px; }
 .mapFrame {width: 100%; height: 500px;}
+
+.video {margin: 0px auto; display: block; max-width: 560px;}
+.webmap {margin: 0px auto; display: block; max-width: 100%;}
+
+
+
 /*
 
 44FFB4
@@ -336,6 +342,7 @@ box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05
 .projectPage .span3, .bio.span3 {max-width: 72%; margin: 0px;}
 .span2 {max-width: 61%}
 .mapBox {max-width: 44%;}
+.video, .webmap {margin: 0px; display: block; max-width: 100%;}
 
 }
 
@@ -352,6 +359,8 @@ box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05
 .aboutPage .span3 {max-width: 61%;}
 .aboutPage .span1, .aboutPage .span2, .siteInfo.span3 {max-width: 100%;}
 .pocketBox, .mapBox {max-width: 61%; margin: 0px;}
+.video, .webmap {margin: 0px; display: block; max-width: 100%;}
+
 
 }
 
@@ -375,6 +384,7 @@ box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05
 .noMobile {display: none;}
 .projectPage img {width: 100%; height: auto;}
 .span1, .mapBox {max-width: 100%;}
+.video, .webmap {margin: 0px; display: block; max-width: 100%;}
 
 }
  
@@ -392,6 +402,7 @@ box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05
 .field {font-size: 12px;}
 .name {font-size: 20px;}
 .span3 {max-width: 100%;}
+.projectPage .span3 {max-width: 100%;}
 .span1, .span2, .span3, .span4 {margin: 0px;}
 #tweetBox {padding-top: 24px;}
 .madeBy {margin-top: 10px;}
@@ -401,6 +412,8 @@ box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05
 .span1 {max-width: 100%;}
 header li {font-size: 11px;}
 .mapBox {max-width: 100%;}
+.video, .webmap {margin: 0px; display: block; max-width: 100%;}
+
 
 }
 
