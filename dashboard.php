@@ -85,7 +85,7 @@
   <table>
   {{#rows}}
     <tr><td class="postDate">{{readdate}}</td></tr>
-    <tr><td class="instaCaption"><a href="{{readURL}}">{{readtitle}}</a></td></tr>
+    <tr><td class="instaCaption"><a href="{{readurl}}">{{readtitle}}</a></td></tr>
   {{/rows}}
   </table>
 </script>

@@ -130,7 +130,7 @@ li a img {padding-bottom: 5px;}
 .span2:last-child, .span1:last-child, .span3:last-child, .thumbnail:last-child {margin: 0px;}
 .row {max-width: 1000px; padding: 0px 0px 25px 0px; margin: 0px; float: left;}
 .thumbnail {max-width: 231.25px; height: 150px; background: #efefef; margin: 0px 25px 0px 0px; float: left;}
-.double_thumbnail {background: #fff; display: block; width: 487.5px; float: left; margin: 0px 25px 0px 0px; height: 150px;}
+.double-thumbnail {background: #eeeeee; display: block; max-width: 447.5px; float: left; margin: 0px 25px 0px 0px; height: 110px; padding: 20px;}
 .fixed {position: fixed; z-index: 10px;}
 /*.projImgColumn {position: relative; left: 256.25px;}*/
 
