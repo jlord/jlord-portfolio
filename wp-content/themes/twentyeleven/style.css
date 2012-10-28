@@ -1,0 +1,136 @@
+/*body {background-image: url('http://subtlepatterns.com/patterns/furley_bg.png');}*/
+a, a:visited {
+	text-decoration: none;
+	}
+a:hover {color: #BCEDDC;}
+p {color: #333; font-family: 'Arvo', serif;	font-weight: 400; font-size: 12px; color: #333; margin: 0px;}	
+	
+h1 {font-family: 'Arvo', serif;	font-weight: 400; font-size: 46px; color: #333; margin: 0px; padding: 0px;}
+h2 {font-family: 'Arvo', serif;	font-weight: 400; font-size: 16px; color: #333; margin: 0px; padding: 0px;}	
+h3 {font-family: 'Arvo', serif;	font-weight: 400; font-size: 14px; color: #333; margin: 0px; padding: 0px;}
+h6 {font-family: 'Arvo', serif;	font-weight: 400; font-size: 11px; color: #333; margin: 0px; padding: 0px;}
+.tright {text-align: right;}
+.fleft {position: relative; float: left;}
+
+
+#pagewrapper {position: relative; top: 0px; width: 1160px; height:100%; margin: 0 auto; overflow: auto;}
+
+
+#header {position: relative; height: 110px; width: 100%; padding-top: 20px; overflow: auto;
+		 background-image: url('rainbowtop.png'); background-position: top; background-repeat: repeat-x; }
+#title_container {positon: relative; float: right;}		
+		
+
+
+#main {position: relative; float: right; width: 780px; height: 600px;  margin-left: 10px; background: #acacac;}
+.mainnav {background: #333;}
+
+/* BREADCRUMBS */
+#bread_box {position: relative; float: right; width: 100%; margin-bottom: 10px; overflow: auto;	}
+#breadcrumbs {position: relative; float: right; height: 40px; }  
+/* This creates the boxes, the left one is on top and nudged right over the right box */
+.left  { position: relative; float: left;  height: 40px; background: #BCEDDC; right: 7px; z-index: 2; }
+.right { position: relative; float: right; height: 40px; background: #BCEDDC; }
+.left p, .right p  { line-height: 40px; font-family: 'Arvo'; font-size: 18px; color: #333; white-space: nowrap; }
+.left p  { margin-right: 30px; margin-left: 30px; }
+.right p { margin-right: 30px; margin-left: 40px; }
+
+/* Creates the triangle at the end (right side) of the left box  */
+.left::before {
+	content: " ";
+	position: relative;
+	float: right;
+	width: 0;
+	height: 0;
+	left: 20px;
+	border-left: 20px solid #BCEDDC;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+/* Creates the triangle at the beginning (left side) of the right box  */
+/* This triangle needs to match the background the breadcrumb sits on. Solid colors work best. */
+.right::before {
+	content: " ";
+	position: relative;
+	float: left;
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-left: 20px solid #fff;
+}
+
+
+/* SIDE BAR */
+#sidebar {position: relative; float: left; width: 360px; height: 600px; margin-right: 10px;}
+#sidebar h2 {margin-top: 10px;}
+.button {position: relative; font-family: 'Arvo', serif; font-size: 13px; color: #333; line-height: 21px; margin: 0px 2px 4px 0px;}
+.button a {display: block; float: left; height: 22px; color: #333; background: #BCEDDC; padding: 0px 5px 0px 5px;}	
+.button a:hover { display: block; background: #777; color: #fff;}
+.subtitle {position: relative; font-family: 'Arvo', serif; font-size: 13px; color: #333; line-height: 21px; margin: 0px 2px 4px 0px; background: #BCEDDC; padding: 0px 30px 0px 30px; float: right; text-align: right;}
+
+.menu {position: relative; float: left; padding-top: 10px;}
+	
+.menu ul {
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;	
+	}
+.menu li {
+	float: left;
+	list-style: none;
+	font-family: 'Arvo', serif;	
+	font-size: 13px;
+	color: #333;
+	line-height: 21px;
+	margin: 4px 2px 4px 0px;
+	}
+.menu li a {
+	display: block;
+	float: left;
+	
+	height: 22px;
+	color: #333;
+	padding: 0px 5px 0px 5px;
+	}
+.menu li a:hover {
+	display: block;
+	background: #777;
+	color: #fff;
+	}
+
+.second a {margin-left: 7px;}	
+	
+.ps a{background: #BCFF52;}	
+.dr a{background: #137A58;}
+.ed a{background: #EAFF52;}
+.ra a{background: #45709B;}
+
+.bu a{background: #BCFF52;}
+
+.category.ps::after {border-left: 11px solid #BCFF52;}
+.category.dr::after {border-left: 11px solid #137A58;}
+.category.ed::after {border-left: 11px solid #EAFF52;}
+.category.ra::after {border-left: 11px solid #45709B;}
+
+.category::after {
+	content: " ";
+	position: relative;
+	float: left;
+	width: 0;
+	height: 0;
+	border-top: 11px solid transparent;
+	border-bottom: 11px solid transparent;	
+}	
+/* When hovering over div, generate new triangle to match div hover conditions */
+.category:hover::after {content: " "; position: relative; float: left; width: 0; height: 0; border-top: 11px solid transparent; border-bottom: 11px solid transparent; border-left: 11px solid #777;}
+/* Colors by category */
+
+
+.menu li a.ps {background: #EAFF52;}
+
+
+/* FOOOOOOTERRRRR */
+#footer {position: relative; float: left; width: 100%; height: 50px; border-top: 1px dotted #333; padding-top: 15px;      	  padding-left: 8px; margin-top: 10px;}
