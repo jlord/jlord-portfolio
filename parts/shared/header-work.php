@@ -10,8 +10,8 @@
 				<li><a class="fun" href="#">FUN</a></li></ul>
 			<ul class="right">
 				<li><small>more</small></li>
-				<li><a href="/blog/">BLOG</a></li>
 				<li><a href="/about/">ABOUT</a></li>
+				<li><a href="/blog/">BLOG</a></li>
 				<li><a href="/dashboard/">DASHBOARD</a></li>
 				<li><a href="http://www.twitter.com/jllord" target="_blank"><img src="/wp-content/uploads/twitter.png" width="12px"></a></li>
 				<li><a href="mailto:to.jlord@gmail.com" target="_blank"><img src="/wp-content/uploads/envelope_grey.png" width ="20px"></a> </li>
