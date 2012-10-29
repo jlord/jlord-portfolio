@@ -28,10 +28,10 @@ define('DB_PASSWORD', $_ENV['DB_PASSWORD']);
 define('DB_HOST', $_ENV['DB_HOST']);
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', $_ENV['DB_CHARSET']);
+define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
-define('DB_COLLATE', $_ENV['DB_COLLATE']);
+define('DB_COLLATE', '');
 
 /**#@+
  * Authentication Unique Keys and Salts.
