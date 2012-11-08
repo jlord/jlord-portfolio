@@ -1,5 +1,5 @@
 <header>
-		<div id="card"><p><a href="/hello/"><img class="logo" src="/wp-content/uploads/logo.png" width = "45px"></a><p class="field">URBAN INFORMATION DESIGN</p><p class="name">Jessica Lord</p></div>
+		<div id="card"><p><a href="/hello/"><img class="logo" src="/wp-content/uploads/logo.png" width = "45px"></a><p class="field">MAPS, DESIGN, JS - OH MY</p><p class="name">Jessica Lord</p></div>
 		<div id="nav">
 			<ul class="left workNav">
 				<a href="/hello/">

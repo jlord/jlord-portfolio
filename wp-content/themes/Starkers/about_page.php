@@ -25,8 +25,8 @@
 		<div class="span3 bio">
 			<h3 class="capTitle">Jessica Lord</h3>
 			<h6><small>Hi</small></h6>
-			<p class="biobody">My thing is communicating issues, from urban systems to government transparency. I strive to make information
-			simple, clear and meaningful. I'm optimistic (and energetic) about creating impact and behavioral change. 
+			<p class="biobody">My thing is communicating issues - from urban systems to government transparency. I strive to make information
+			simple, clear and meaningful. I'm optimistic (and ¡energetic!) about creating impact and behavioral change. 
 			My background is in architecture and urban design but I've a got a strong tech side and am focusing
 			on using those skills to communicate through the web. I'm big on cities, open source, javascript, coffee, bikes and 
 			the awesome community of other folks who feel the same.</p> 
@@ -67,12 +67,13 @@
 			<h6><small>Education</small></h6>
 			<ul>
 				<li>Georgia Institute of Technology, Architecture</li>
+				<li>Ecole d'Architecture de Paris LaVillette</li>
 			</ul>
 			<h6><small>Skills</small></h6>
 			<ul>
 				<li>Urban and Architectural Design, graphic design, diagraming, static and web mapping, Adobe Suite, CSS, HTML, Javascript, Wordpress PHP.</li></ul>
 			<ul>
-				<li>Was LEED ND and LEED BD&C but they lapsed this year during my Code for America Fellowship. </li>
+				<li>Formerly LEED ND and LEED BD&C (lapsed this year during my Code for America Fellowship) </li>
 			</ul>
 			<h6><small>Speaking</small></h6>
 			<ul>
