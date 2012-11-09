@@ -19,7 +19,7 @@
 
 	<div id="content" class="aboutPage">
 		<div class="span1 contact">
-					<img src="/wp-content/uploads/circle_me.png" width="231.25px">
+					<img src="http://jlord.s3.amazonaws.com/wp-content/uploads/me_goat_blue.png" width="231.25px">
 		</div>
 		
 		<div class="span3 bio">
