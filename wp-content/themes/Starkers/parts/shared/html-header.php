@@ -6,6 +6,7 @@
 <!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 	<head>
 		<title><?php bloginfo( 'name' ); ?><?php wp_title( '|' ); ?></title>
+		<link href="/wp-content/themes/Starkers/style.css?0" media="screen" rel="stylesheet" type="text/css">
 		<link href="/wp-content/themes/Starkers/rainbow.github.css?0" media="screen" rel="stylesheet" type="text/css">
 
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
@@ -15,7 +16,7 @@
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.png"/>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600|Merriweather:400,700' rel='stylesheet' type='text/css'>
-		<?php wp_head(); ?>
+		<!-- p h p wp_head(); -->
 		<script type="text/javascript">
 		  var _gaq = _gaq || [];
 		  _gaq.push(['_setAccount', 'UA-20294849-1']);
