@@ -16,7 +16,7 @@
 <div id="content">
 
 <article class="span3 ">
-<div class="post">
+<div id="post">
 	<h1 class="postTitle"><?php the_title(); ?></h1>
 	<h6 class="postDate"><time datetime="<?php the_time( 'Y-m-d' ); ?>" pubdate><?php the_date(); ?> 
 		<?php the_time(); ?></time> | 
