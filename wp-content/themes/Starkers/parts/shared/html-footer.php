@@ -1,6 +1,5 @@
-
 			<?php wp_footer(); ?>
-		</div><!-- end #rapper -->
+		</div><!-- end #wrapper -->
 		</div><!-- end #pageWrapper -->
 	</body>
 </html>

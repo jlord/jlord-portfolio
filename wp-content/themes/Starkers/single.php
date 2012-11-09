@@ -21,19 +21,20 @@
 	<h6 class="postDate"><time datetime="<?php the_time( 'Y-m-d' ); ?>" pubdate><?php the_date(); ?> 
 		<?php the_time(); ?></time> | 
 		<!-- comments_popup_link('Leave a Comment', '1 Comment', '% Comments'); -->
-		Tags:
-		<?php 
-			$tags = get_tags();
-			$html = '';
-			foreach ($tags as $tag){
-			$tag_link = get_tag_link($tag->term_id);
-				
-			$html .= "<span class='aTag'><a href='{$tag_link}' title='{$tag->name} Tag' class='{$tag->slug}'>";
-			$html .= "{$tag->name}</a></span>";
+	 Category: 
+		<?php
+		$categories = get_the_category();
+		$separator = ' ';
+		$output = '';
+		if($categories){
+			foreach($categories as $category) {
+				$output .= '<a href="'.get_category_link($category->term_id ).'" title="' . esc_attr( sprintf( __( "View all posts in %s" ), $category->name ) ) . '">'.$category->cat_name.'</a>'.$separator;
 			}
-			$html .= '';
-			echo $html;
-		?></span>
+		echo trim($output, $separator);
+		}
+		?> | 
+		<?php the_tags(); ?>
+</span>
 
 	</h6>
 	<?php the_content(); ?>		
