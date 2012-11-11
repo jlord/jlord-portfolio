@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+/**
+ * Technicolor
+ *
+ * A theme for Rainbow.js
+ *
+ * @author David Naber <kontakt@dnaber.de>
+ */
+
+pre {
+	padding: .75em 1.625em;
+	margin: 2em 0;
+	background-color: #fdfdfd;
+	font: 1em/1.3 Consolas, Courier, monospace;
+	color: #000;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+}
+
+pre .php-tag {
+	background-color: rgba( 245, 245, 45, .7 );
+	color: #000 !important;
+}
+
+pre .comment {
+	color: #999;
+}
+
+pre .storage,
+pre .keyword,
+pre .constant {
+	color: #040658;
+}
+
+pre .keyword.operator,
+pre .keyword.dot {
+	color: #000;
+}
+
+pre .variable {
+	color: #3c44ea;
+}
+
+pre .string {
+	color: #318006;
+}
+
+pre .constant.numeric {
+	color: #c68e09;
+}
+
+/**
+ * css specific
+ */
+pre code[data-language="css"] .keyword,
+pre code[data-language="css"] .constant {
+	color: #494cc6;
+}
+
+pre .tag {
+	color: #040658;
+}
+pre code[data-language="css"] .class,
+pre .id {
+	color: #dc2525;
+}
+pre .vendor-prefix {
+	//color: #dcb325;
+	font-style: italic;
+}
+
+/**
+ * html
+ */
+pre .attribute {
+	color: #494cc6;
+}
+
+pre code[data-language="c"]:before,
+pre code[data-language="php"]:before,
+pre code[data-language="css"]:before,
+pre code[data-language="lua"]:before,
+pre code[data-language="html"]:before,
+pre code[data-language="ruby"]:before,
+pre code[data-language="shell"]:before,
+pre code[data-language="csharp"]:before,
+pre code[data-language="python"]:before,
+pre code[data-language="javascript"]:before,
+pre code[data-language="java"]:before,
+pre code[data-language="r"]:before,
+pre code[data-language="coffeescript"]:before,
+pre code[data-language="go"]:before,
+pre code[data-language="smalltalk"]:before {
+	float: right;
+	color: #ddd;
+	font-size: 2em;
+}
+
+pre code[data-language="c"]:before {
+	content: "C";
+}
+
+pre code[data-language="php"]:before {
+	content: "PHP";
+}
+
+pre code[data-language="css"]:before {
+	content: "CSS";
+}
+
+pre code[data-language="lua"]:before {
+	content: "Lua";
+}
+
+pre code[data-language="html"]:before {
+	content: "HTML";
+}
+
+pre code[data-language="ruby"]:before {
+	content: "Ruby";
+}
+
+pre code[data-language="shell"]:before {
+	content: "Shell";
+}
+
+pre code[data-language="csharp"]:before {
+	content: "C#";
+}
+
+pre code[data-language="python"]:before {
+	content: "Python";
+	font-size: 1.5em;
+}
+
+pre code[data-language="javascript"]:before {
+	content: "Javascrip";
+	font-size: 1.5em;
+}
+
+pre code[data-language="java"]:before {
+	content: "Java";
+	font-size: 1.5em;
+}
+
+pre code[data-language="r"]:before {
+	content: "R";
+	font-size: 1.5em;
+}
+
+pre code[data-language="coffeescript"]:before {
+	content: "Coffeescript";
+	font-size: 1.5em;
+}
+
+pre code[data-language="go"]:before {
+	content: "Go";
+	font-size: 1.5em;
+}
+
+pre code[data-language="smalltalk"]:before {
+	content: "Smalltalk";
+	font-size: 1.5em;
+}

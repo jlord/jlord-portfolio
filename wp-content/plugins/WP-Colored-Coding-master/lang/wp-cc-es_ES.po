@@ -1,0 +1,132 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: php/class-CC_Admin_UI.php:131
+#: php/class-CC_Admin_UI.php:137
+#@ wp-cc
+msgid "Code Blocks"
+msgstr "bloques de código"
+
+#: php/class-CC_Admin_UI.php:156
+#@ wp-cc
+msgid "To delete a codeblock just leave the textarea(code) empty and update."
+msgstr "Para borrar un bloque de código solamente deja el área del texte (code) vacío y actualizar."
+
+#: php/class-CC_Admin_UI.php:166
+#@ wp-cc
+msgid "Give me the next block"
+msgstr "Darme el próximo bloque"
+
+#: php/class-CC_Admin_UI.php:204
+#@ wp-cc
+msgid "Name"
+msgstr "nombre"
+
+#: php/class-CC_Admin_UI.php:211
+#@ wp-cc
+msgid "Use within the Shortcode [cc name=\"\"]"
+msgstr "Usar dentro del shortcode [cc name=\"\"]"
+
+#: php/class-CC_Admin_UI.php:218
+#@ wp-cc
+msgid "Language"
+msgstr "idioma"
+
+#: php/class-CC_Admin_UI.php:225
+#@ wp-cc
+msgid "Leave empty for no syntax highlighting"
+msgstr "dejar vacía para no syntax-highlighting"
+
+#: php/class-CC_Admin_UI.php:244
+#@ wp-cc
+msgid "Raw HTML Code (Note! This will print the plain Code without any escaping filters)"
+msgstr "código HTML sin filtrar (¡Cuidado! Todo lo que está en el áreal de texte también se exportaron)"
+
+#: php/class-CC_Admin_UI.php:251
+#@ wp-cc
+msgid "Insert Tab"
+msgstr "pegar pestaña"
+
+#: php/class-CC_Admin_UI.php:256
+#@ wp-cc
+msgid "Code"
+msgstr "Código"
+
+#: php/class-CC_Admin_UI.php:263
+#@ wp-cc
+msgid "Update"
+msgstr "actualización"
+
+#: php/class-CC_Admin_UI.php:370
+#@ wp-cc
+msgid "WP Colored Coding settings"
+msgstr "WP Colored Coding opciónes"
+
+#: php/class-CC_Admin_UI.php:378
+#@ wp-cc
+msgid "Use syntax highlighting?"
+msgstr "Utilice sintaxis coloreada?"
+
+#: php/class-CC_Admin_UI.php:396
+#@ wp-cc
+msgid "Syntax highlighting theme"
+msgstr "Tema resaltado de sintaxis"
+
+#: php/class-CC_Admin_UI.php:411
+#@ wp-cc
+msgid "Enable the raw output option?"
+msgstr "Activar opción para HTML sin filtrar?"
+
+#: php/class-CC_Admin_UI.php:419
+#@ wp-cc
+msgid "Provide an option on each codeblock to print it as raw HTML/Javascript instead of escaping it."
+msgstr "Permite a cada bloque de código emitirlo como una neta HTML (sin filtro)."
+
+#: php/class-CC_Admin_UI.php:433
+#@ wp-cc
+msgid "If you want to use syntax highlighting via rainbow.js, just enable it and choose a theme."
+msgstr "Si desea utilizar la sintaxis destacando via rainbow.js, solamente habilita y elige un tema."
+
+#: php/class-CC_Admin_UI.php:571
+#@ wp-cc
+msgid "Insert a Codeblock"
+msgstr "Pegar un bloque de código"
+
+#: php/class-CC_Admin_UI.php:572
+#@ wp-cc
+msgid "Available Codeblocks"
+msgstr "bloques de código disponible"
+
+#: php/class-CC_Admin_UI.php:576
+#@ wp-cc
+msgid "or write your code into the editor"
+msgstr "o escribe su código al editor"
+
+#: php/class-CC_Admin_UI.php:577
+#@ wp-cc
+msgid "Languages supported by Rainbow.js"
+msgstr "idiomas apoyadas por rainbow.js"
+
+#: php/class-CC_Admin_UI.php:581
+#@ wp-cc
+msgid "Insert Shortcode"
+msgstr "pegar shortcode"
+
