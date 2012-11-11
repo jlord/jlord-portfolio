@@ -17,7 +17,7 @@
 <?php get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 <div id="content" class="instagramFeed">
 	<div id="instagram" class="span4"></div>
-	<div class="span3"><p>These are my Instagram photos starting when I started saving them to a Google Spreadsheet using ifttt.com. My blog post on how.</p></div>
+	<div class="span3"><p>These are my Instagram photos starting when I started saving them to a Google Spreadsheet using <a href="http://www.ifttt.com" target="_blank">ifttt.com</a>. My <a href="http://jlord.us/your-own-instagram-feed/">blog post</a> on how.</p></div>
 </div> 
 
 <script src="/wp-content/themes/Starkers/sheetsee.js?0"></script>
@@ -36,9 +36,8 @@
    }) 
 
   showData = function(data) {
-		var data = data
 		var instagram = ich.instagram({
-			"rows": getLast(data, 47)
+			"rows": data.reverse()
 		})
 		document.getElementById('instagram').innerHTML = instagram;
 	}
