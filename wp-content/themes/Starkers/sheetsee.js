@@ -1,27 +1,46 @@
 var YEARS = ["year2012", "year2013", "year2014", "year2015", "year2016", "year2017", "year2018", "year2019"]
 var URL = 'https://docs.google.com/spreadsheet/pub?key=0Ao5u1U6KYND7dGRZbTUwd3JQZ1k3OE9KTVZqZUYwZHc&single=true&gid=0&output=html';
-var URL2 = 'https://docs.google.com/spreadsheet/pub?key=0Ao5u1U6KYND7dERheVpFZThEUkdPZnFXXzMxTzJ3dEE&single=true&gid=0&output=html';
-
-
 
 function loadSpreadsheet() {
-  var a = Tabletop.init( { key: URL, callback: showDataA, simpleSheet: true } )
-  var b = Tabletop.init( { key: URL2, callback: showDataB, simpleSheet: true } )
+  Tabletop.init( { key: URL, callback: showData, simpleSheet: true } )
+  // var b = Tabletop.init( { key: URL2, callback: showDataB, simpleSheet: true } )
 }
 
-function getLast(array) {
+function getLastOne(array) {
   array = array[array.length-1]
   return array
 }
 
-function getLastFour(array) {
-  if (array.length < 4)
-    return array
-  else
-    theLength = array.length
-  array = [array[theLength-1], array[theLength-2], array[theLength-3], array[theLength-4]]
-    return array
+// ---- don't need you any more ----- 
+// function getLastFour(array) {
+//   if (array.length < 4)
+//     return array
+//   else
+//     theLength = array.length
+//   array = [array[theLength-1], array[theLength-2], array[theLength-3], array[theLength-4]]
+//     return array
+// }
+// ----------------------------------
+
+function getLast(array, howMany) {
+  start = array.length
+  cut = start - howMany
+  if (start < 20) {
+  return array
+  } else {
+    array = array.splice(cut)
+    return array.reverse()
+  }
 }
+
+// function getLast(array, howMany) {
+//   start = array.length
+//   if (start < 20) return array
+//   else 
+//     console.log(start, howMany, array)
+//     array = array.splice(start, howMany)
+//     return array.reverse()
+// }
 
 function getCurrentYear() {
   return new Date().getFullYear()  

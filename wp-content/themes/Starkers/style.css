@@ -86,8 +86,8 @@ small {font-family: Open Sans, Arial, sans-serif; font-size: 10px;}
 .content-img a:hover {background: transparent;}
 
 body {margin: 0px; background: #efefef; color: #333; width: 100%;}
-#pageWrapper {margin: 12px; background: #fff; box-shadow: 0 0 5px #888; box-shadow: 0 0 5px #888; padding: 0px 40px; min-height: 800px; }
-#wrapper {position: relative; max-width: 1000px; margin: 0px auto;	}
+#pageWrapper {margin: 12px; background: #fff; box-shadow: 0 0 5px #888; box-shadow: 0 0 5px #888; padding: 0px 40px; min-height: 800px; overflow: auto; }
+#wrapper {position: relative; max-width: 1000px; margin: 0px auto; overflow: auto;}
 
 /* HEADER */
 header {max-width: 1000px; overflow: auto; padding-bottom: 10px; border-bottom: 3px solid #e6e6e6; margin: 0px; }
@@ -142,7 +142,7 @@ li a img {padding-bottom: 5px;}
 .theMeta {font-family: Open Sans; font-size: 9px; color: #777; text-transform: uppercase; font-weight: normal; padding-bottom: 8px;}
 
 
-footer {bottom: 34px; overflow: auto; text-align: center;}
+footer {bottom: 34px; /*overflow: auto;*/ text-align: center;}
 
 /* POSTS */
 .post {padding-bottom: 25px; border-bottom: 1px dotted #e6e6e6; margin-bottom: 35px;}
@@ -237,9 +237,12 @@ textarea {padding: 6px; font-family: Merriweather, Georgia, serif; font-size: 13
 #tweetBox h3 {margin-bottom: 12px;}
 #tweetBox {padding-bottom: 24px;}
 
-#instagram {}
+/*#instagram {margin-bottom: 30px;}*/
 .instaCaption {font-family: Merriweather, Georgia, serif; font-size: 12px; padding: 7px 0px 10px 11px; background: #eeeeee;}
 .instaImg {background: #eeeeee; width: 100%; padding: 11px;}
+.instaImgCirc img {border-radius: 1000px; margin-bottom: 30px;}
+.instaImgCirc:nth-child(4n+4) {margin: 0px;}
+.instaImgGrid {float: left;}
 .dashboard .postDate {padding: 10px 0px;}
 
 #pocketReader {overflow: auto; padding-bottom: 18px; }
