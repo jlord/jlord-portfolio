@@ -149,8 +149,6 @@ footer {bottom: 34px; /*overflow: auto;*/ text-align: center;}
 .postTitle {font-family: Merriweather; font-size: 33px; font-weight: 700; padding-bottom: 24px;}
 time, .postDate {font-family: Open Sans; letter-spacing: .2em; font-size: 9px; color: #777; text-transform: uppercase; padding-bottom: 25px;}
 .postImg {padding-bottom: 12px;}
-a img {border: none; background: none;}
-
 /*.postBody{font-size: 18px; line-height: 1.2em; padding-bottom: 14px;}*/
 .postMeta {border-top: 2px solid #333; padding-top: 8px; height: 70px; float: right; margin: 0px 0px 25px 25px;}
 .tags {font-family: Open Sans; letter-spacing: .2em; font-size: 9px; color: #777; text-transform: uppercase; }
@@ -160,7 +158,8 @@ a img {border: none; background: none;}
 #post-to-fro {padding-top: 15px;}
 .aTag::after {content: ', '}
 .aTag:last-child::after {content: ''}
-/*#post a img {border: none; background: #fff;}*/
+#post a img {border: none; background: #fff;}
+a img {border: none; background: none;}
 #post ul, #content article ul {list-style: disc; padding-left: 20px; margin-bottom: 24px;}
 #post li, #content.loop article li {font-size: 16px; line-height: 1.5em; padding: 6px 0 0 4px; list-style: disc; font-weight: 300;}
 #post blockquote p {font-family: Merriweather, Baskerville; font-size: 16px; padding-left: 10px; border-left: 1px solid #e6e6e6;}
