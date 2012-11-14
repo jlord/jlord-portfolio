@@ -23,7 +23,9 @@
 			plus <a href="http://builtbybalance.com/Tabletop/" target="_blank">tabletop.js</a> in a mashup I call <a href="http://jllord.github.com/sheetsee.js" target="_blank">sheetsee.js</a>.</p>
 		<div class="instaBox">
 			<h3>Lastest Instagram</h3>
-			<div id="instagram"></div></div>
+			<div id="instagram"></div>
+			<p>See <a href="http://jlord.us/instagram">all</a> of feed.</p>
+		</div>
 	</div>
 
 	<div class="span1 pocketBox">
@@ -103,7 +105,7 @@
 		var instaData = data
 
 		var instagram = ich.instagram({
-			"rows": getLast(instaData)
+			"rows": getLast(instaData, 1)
 		})
 		document.getElementById('instagram').innerHTML = instagram;
 	}
@@ -113,7 +115,7 @@
 		var pocketData = data
 
  		var pocketReader = ich.pocketReader({
-    	"rows": getLastFour(pocketData)
+    	"rows": getLast(pocketData, 4)
  		})
  		document.getElementById('pocketReader').innerHTML = pocketReader; 
 		}

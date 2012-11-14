@@ -239,7 +239,7 @@ textarea {padding: 6px; font-family: Merriweather, Georgia, serif; font-size: 13
 #tweetBox h3 {margin-bottom: 12px;}
 #tweetBox {padding-bottom: 24px;}
 
-/*#instagram {margin-bottom: 30px;}*/
+.dashboard #instagram {margin-bottom: 16px;}
 .instaCaption {font-family: Merriweather, Georgia, serif; font-size: 12px; padding: 7px 0px 10px 11px; background: #eeeeee;}
 .instaImg {background: #eeeeee; width: 100%; padding: 11px;}
 .instaImgCirc img {border-radius: 1000px; margin-bottom: 30px;}
@@ -275,6 +275,8 @@ a.active {border-bottom: 1px solid #E5E53E;}
 
 .video {margin: 0px auto; display: block; max-width: 560px;}
 .webmap {margin: 0px auto; display: block; max-width: 100%;}
+
+.spinner {text-align: center; background: #ff00ff;}
 
 
 
