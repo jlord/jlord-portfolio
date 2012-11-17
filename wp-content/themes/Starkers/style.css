@@ -158,7 +158,7 @@ time, .postDate {font-family: Open Sans; letter-spacing: .2em; font-size: 9px; c
 #post-to-fro {padding-top: 15px;}
 .aTag::after {content: ', '}
 .aTag:last-child::after {content: ''}
-#post a img {border: none; background: #fff;}
+#post img {border: none; background: #fff;}
 a img {border: none; background: none;}
 #post ul, #content article ul {list-style: disc; padding-left: 20px; margin-bottom: 24px;}
 #post li, #content.loop article li {font-size: 16px; line-height: 1.5em; padding: 6px 0 0 4px; list-style: disc; font-weight: 300;}
