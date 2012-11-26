@@ -408,7 +408,7 @@ box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05
 .row {max-width: 100%; padding: 0px 0px 25px 0px; margin: 0px; float: left;}
 .thumbnail {max-width: 480px; height: auto; background: #efefef; margin: 0 0 25px 0; float: left;}
 .thumbnail:last-child {margin: 0 0 0 0;}
-#pageWrapper {margin: 12px; background: #fff; box-shadow: 0 0 5px #888; box-shadow: 0 0 5px #888; padding: 0px 30px; min-height: 800px; }
+#pageWrapper {margin: 12px; background: #fff; box-shadow: 0 0 5px #888; box-shadow: 0 0 5px #888; padding: 0px 25px; min-height: 800px; }
 #nav {display: none;}
 #navMobile {display: inherit;}
 .mobileTweetEmail {padding: 0px 84px;}
