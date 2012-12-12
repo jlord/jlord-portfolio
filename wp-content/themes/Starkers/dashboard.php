@@ -57,8 +57,8 @@
 
 	<div class="span2 mapBox">
 		<h3>This Crazy CfA Year</h3>
-		<div id="mapHolder">
-			<iframe class="mapFrame" frameBorder='0' src='http://a.tiles.mapbox.com/v3/jllord.whereIbeen.html#1/37.8575/-100.5469'></iframe>
+		<div id="mapHolder"><!-- -40.4297,23.4029,3 -->
+			<iframe class="mapFrame" frameBorder='0' src='http://a.tiles.mapbox.com/v3/jllord.whereIbeen.html#1/-33/-55'></iframe>
 			<small>My location data collected with <a href="http://www.openpaths.cc" target="_blank">openpaths.cc</a> and maped with <a href="http://www.mapbox.com/tilemill" target="_blank">TileMill</a>.</small>
 		</div>
 	</div>
