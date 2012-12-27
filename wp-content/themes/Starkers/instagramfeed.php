@@ -37,7 +37,7 @@
 
   showDataA = function(data) {
 		var instagram = ich.instagram({
-			"rows": getLast(data,26)
+			"rows": getLast(data,16)
 		})
 		document.getElementById('instagram').innerHTML = instagram;
 	}
