@@ -98,11 +98,12 @@
      loadSpreadsheet()
    }) 
 
-
+	 var instaData = []
 
   showDataA = function(data) {
 		var data = data
-		var instaData = data
+		 instaData = data
+		return instaData
 
 		var instagram = ich.instagram({
 			"rows": getLast(instaData, 1)

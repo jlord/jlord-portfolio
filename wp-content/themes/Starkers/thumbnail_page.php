@@ -51,6 +51,6 @@
 	</div>
 
 <script src="/wp-content/themes/Starkers/jquery-1.8.2.min.js" type="text/javascript"></script>
-<script src="/wp-content/themes/Starkers/mask.js" type="text/javascript"></script> 
+<script src="/wp-content/themes/Starkers/js/site.js" type="text/javascript"></script> 
 
 <?php get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>
