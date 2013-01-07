@@ -226,7 +226,7 @@ textarea {padding: 6px; font-family: Merriweather, Georgia, serif; font-size: 13
 #searchsubmit {background: #eeeeee; border: none; font-family: Open Sans, Arial, sans-serif; font-size: 12px; text-transform: uppercase; padding: 3px 8px; display: none;}
 .screen-reader-text {font-family: Open Sans, Arial, sans-serif; text-transform: lowercase; font-size: 10px;}
 .searchPage h2 {font-family: Merriweather; font-size: 22px; font-weight: 500; padding-bottom: 18px;}
-.searchPage h1, .dashboard h1 {font-family: Merriweather; font-size: 33px;font-weight: 700; padding-bottom: 18px;}
+.searchPage h1, .dashboard h1, .momPage h1 {font-family: Merriweather; font-size: 33px;font-weight: 700; padding-bottom: 18px;}
 
 /* THE META */
 #content.projectPage li {font-family: Open Sans, Arial, sans-serif; font-size: 9px; text-transform: uppercase;}
@@ -287,55 +287,35 @@ a.active {border-bottom: 1px solid #E5E53E;}
 .oneCell:nth-child(4n+4) {margin: 0px;}
 .oneCell {height: 400px; background: transparent;}
 .oneCell .month {background: #acacac; padding: 3px 6px; margin-top: 8px;}
-#content p.oneCell {font-size: 12px;}
+#content #photoData p {font-size: 24px; margin-top: 10px; font-family: Covered By Your Grace; line-height: inherit;}
+.momPage h5 {padding: 8px 0px; margin: 9px -25px 9px 0px;}
+.momPage p a {padding-bottom: 1px; dashborder-bottom: 1px solid #44FFB4;}
+/*.momPage h5.january {background: #47FFD4;}
+.momPage h5.february {background: #36E0B9;}
+.momPage h5.march {background: #2BC4A0;}
+.momPage h5.april {background: #2DAC8E;}
+.momPage h5.may {background: #218B72;}
+.momPage h5.june {background: #1C7963;}
+.momPage h5.july {background: #096B54;}
+.momPage h5.august {background: #238A7E;}
+.momPage h5.september {background: #3AA598;}
+.momPage h5.october {background: #4AC7B8;}
+.momPage h5.november {background: #4BDBCA;}
+.momPage h5.december {background: #64F1E1;}*/
+.oneCell:nth-child(4n+4) h5 {margin-right: 0px;}
+.momPage h5.january {border-bottom: 3px solid #47FFD4; border-top: 3px solid #47FFD4;}
+.momPage h5.february {border-bottom: 3px solid #36E0B9; border-top: 3px solid #36E0B9;}
+.momPage h5.march {border-bottom: 3px solid #2BC4A0; border-top: 3px solid #2BC4A0;}
+.momPage h5.april {border-bottom: 3px solid #2DAC8E; border-top: 3px solid #2DAC8E;}
+.momPage h5.may {border-bottom: 3px solid #218B72; border-top: 3px solid #218B72;}
+.momPage h5.june {border-bottom: 3px solid #1C7963; border-top: 3px solid #1C7963;} 
+.momPage h5.july {border-bottom: 3px solid #096B54; border-top: 3px solid #096B54;}
+.momPage h5.august {border-bottom: 3px solid #238A7E; border-top: 3px solid #238A7E;}
+.momPage h5.september {border-bottom: 3px solid #3AA598; border-top: 3px solid #3AA598;}
+.momPage h5.october {border-bottom: 3px solid #4AC7B8; border-top: 3px solid #4AC7B8;}
+.momPage h5.november {border-bottom: 3px solid #4BDBCA; border-top: 3px solid #4BDBCA;}
+.momPage h5.december {border-bottom: 3px solid #64F1E1; border-top: 3px solid #64F1E1;}
 
-/*
-
-44FFB4
-
-Bootstrap Button - 
-border: none; margin-left: 0;
--webkit-border-bottom-left-radius: 4px;
-border-bottom-left-radius: 4px;
--webkit-border-top-left-radius: 4px;
-border-top-left-radius: 4px;
--moz-border-radius-bottomleft: 4px;
--moz-border-radius-topleft: 4px;
--webkit-border-top-right-radius: 4px;
-border-top-right-radius: 4px;
--webkit-border-bottom-right-radius: 4px;
-border-bottom-right-radius: 4px;
--moz-border-radius-topright: 4px;
--moz-border-radius-bottomright: 4px;
-display: inline-block;
-padding: 4px 14px;
-margin-bottom: 0;
-font-size: 14px;
-line-height: 20px;
-color: #333;
-text-align: center;
-text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
-vertical-align: middle;
-cursor: pointer;
-background-color: whiteSmoke;
-background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#E6E6E6));
-background-image: -webkit-linear-gradient(top, white, #E6E6E6);
-background-image: -o-linear-gradient(top, white, #E6E6E6);
-background-image: linear-gradient(to bottom, white, #E6E6E6);
-background-image: -moz-linear-gradient(top, white, #E6E6E6);
-background-repeat: repeat-x;
-border: 1px solid #BBB;
-border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-border-color: #E6E6E6 #E6E6E6 #BFBFBF;
-border-bottom-color: #A2A2A2;
--webkit-border-radius: 4px;
--moz-border-radius: 4px;
-border-radius: 4px;
-filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
-filter: progid:dximagetransform.microsoft.gradient(enabled=false);
--webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
--moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);*/
 
 
 /* ---------------------------------------------------------------------------------------------------------- 

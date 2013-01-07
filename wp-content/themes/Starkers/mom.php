@@ -19,7 +19,7 @@
 <div class="span4">
 	<div class="span3">
 		<h1>Dear Mom,</h1>
-		<p>2012 was an incredible year. It was the year I wrote an API for my annual Year in Review letter and made this page.  I hope you enjoy this addition to the written letter - which you’ll still recieve!</p>
+		<p>2012 was an incredible year. It was the year I wrote an <a href="http://en.wikipedia.org/wiki/API" target="_blank">API</a> for my annual Year in Review letter and made this page.  I hope you enjoy this addition to the written letter - which you’ll still recieve!</p>
 		<p class="right" style="padding-right: 70px;">Lu!<br /> Jecca</p>
 	</div>
 </div>
@@ -28,6 +28,7 @@
 	<div class="horzSec">Geographies</div>
 	<img src="/wp-content/uploads/mom-map.png" style="max-width: 1000px;">
 	
+	<div class="horzSec">Itenerary</div>
 	<div class="span1 flightStats">
 		<img src="/wp-content/uploads/plane.png" />
 		<p class="lrgNumber">24</p>
@@ -60,7 +61,7 @@
 	</div>
 </div>
 
-<div id="span4">
+<div class="span4">
 	<div class="horzSec">Scenes</div>
 	<div id="photoData">hi waitng</div>
 </div>
@@ -70,16 +71,16 @@
 <script src="/wp-content/themes/Starkers/sheetsee.js?0"></script>
 <script src="/wp-content/themes/Starkers/tabletop.js" type="text/javascript"></script> 
 <script src="/wp-content/themes/Starkers/ICanHaz.js" type="text/javascript"></script> 
-
+<script src="/wp-content/themes/Starkers/year.json" type="text/javascript"></script> 
 
 <script id="photoData" type="text/html">
 		{{#rows}}
 	  <div class="span1 oneCell thumbnail">
-	    <img src="{{photoURL}}"/>
-			<h5 class="month">{{month}}</h5>
-			<h5>{{date}}</h5>
+	    	
+			<h5 class="{{month}}">{{date}} in {{city}}</h5>
+			<a href="{{photoURL}}" target="_blank"><img src="{{photoURL}}"/></a>
 			<p>{{details}}</p>
-			<h6>{{city}}</h6>
+			
 	  </div>
 		{{/rows}}
 		
@@ -93,50 +94,17 @@
 		})
 		document.getElementById('photoData').innerHTML = photoData;
    }) 
-		
-	 var yearData = [
-	 			{
-	 			"month": "january",
-	 			"photoURL" : "http://distilleryimage2.s3.amazonaws.com/15f7bc08359d11e1abb01231381b65e3_7.jpg",
-	 			"city" : "San Fransico, Ca",
-	 			"date" : "01/02/12",
-	 			"place" : "Ft. Funston",
-	 			"details" : "West Coast, America"
-	 		},
-	 			{
-	 			"month": "january",
-	 			"photoURL" : "http://distilleryimage2.s3.amazonaws.com/4be860404a9e11e19896123138142014_7.jpg",
-	 			"city" : "San Fransico, Ca",
-	 			"date" : "01/26/12",
-	 			"place" : "Haus Cofffe",
-	 			"details" : "Lots of coffee and hacking with a certain fellow."
-	 		},
-	 			{
-	 			"month": "feburary",
-	 			"photoURL" : "http://distilleryimage5.s3.amazonaws.com/3340fc6447ba11e180c9123138016265_7.jpg",
-	 			"city" : "Warner Robins, Ga",
-	 			"date" : "01/29/12",
-	 			"details" : "Back home, caviar of the south!"
-	 		},
-	 			{
-	 			"month": "feburary",
-	 			"photoURL" : "http://distilleryimage0.s3.amazonaws.com/25d2545c4ac011e1a87612313804ec91_7.jpg",
-	 			"city" : "Warner Robins, Ga",
-	 			"date" : "01/29/12",
-	 			"details" : "With my awesome family!"
-	 		},
-	 		{
-	 		"month": "feburary",
-	 		"photoURL" : "http://distilleryimage9.s3.amazonaws.com/6156553a4c7f11e19e4a12313813ffc0_7.jpg",
-	 		"city" : "Macon, Ga",
-	 		"date" : "02/01/12",
-	 		"details" : "My CfA team"
-	 	},
-	 ]
 
+   function coffeeFilter(data, category, filter) {
+    var coffee = []
+    data.forEach(function (element) {
+      if (element[category] === filter) coffee.push(element)
+  })
+  return coffee
+  }
 
-
-
+  
+  console.log("this is jan:", coffeeFilter(yearData, "month", "january").length)
 
 </script>
 

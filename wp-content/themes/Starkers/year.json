@@ -1,0 +1,368 @@
+var yearData = [
+			{
+			"month": "january",
+			"photoURL" : "http://distilleryimage2.s3.amazonaws.com/15f7bc08359d11e1abb01231381b65e3_7.jpg",
+			"city" : "San Fransico, Ca",
+			"date" : "01/02/12",
+			"place" : "Ft. Funston",
+			"details" : "West Coast, America"
+		},
+			{
+			"month": "january",
+			"photoURL" : "http://distilleryimage5.s3.amazonaws.com/3340fc6447ba11e180c9123138016265_7.jpg",
+			"city" : "San Fransico, Ca",
+			"date" : "01/26/12",
+			"place" : "Haus Cofffe",
+			"details" : "Lots of coffee and hacking with a certain fellow."
+		},
+			{
+			"month": "february",
+			"photoURL" : "http://distilleryimage2.s3.amazonaws.com/4be860404a9e11e19896123138142014_7.jpg",
+			"city" : "Warner Robins, Ga",
+			"date" : "01/29/12",
+			"details" : "Back home, caviar of the south!"
+		},
+			{
+			"month": "february",
+			"photoURL" : "http://distilleryimage0.s3.amazonaws.com/25d2545c4ac011e1a87612313804ec91_7.jpg",
+			"city" : "Warner Robins, Ga",
+			"date" : "01/29/12",
+			"details" : "With my awesome family!"
+		},
+		{
+		"month": "february",
+		"photoURL" : "http://distilleryimage9.s3.amazonaws.com/6156553a4c7f11e19e4a12313813ffc0_7.jpg",
+		"city" : "Macon, Ga",
+		"date" : "02/01/12",
+		"details" : "My CfA team"
+	},
+	{
+		"month": "march",
+		"photoURL" : "http://distilleryimage5.s3.amazonaws.com/de51d1d863e311e19e4a12313813ffc0_7.jpg",
+		"city" : "Warner	Robins, Ga",
+		"date" : "03/01/12",
+		"details" : "There's my Dad!"
+	},
+	{
+		"month": "march",
+		"photoURL" : "http://distilleryimage5.s3.amazonaws.com/eaea24ec671011e1989612313815112c_7.jpg",
+		"city" : "San Fransico, Ca",
+		"date" : "03/05/12",
+		"details" : "Back in SF, doing Bay things like drinking fancy coffee..."
+	},
+	{
+		"month": "march",
+		"photoURL" : "http://distilleryimage0.s3.amazonaws.com/c50dbd16672811e19e4a12313813ffc0_7.jpg",
+		"city" : "San Fransico, Ca",
+		"date" : "03/10/12",
+		"details" : "...hackin places..."
+	},
+	{
+		"month": "march",
+		"photoURL" : "http://distilleryimage4.s3.amazonaws.com/dea988f26aef11e1989612313815112c_7.jpg",
+		"city" : "Oakland, Ca",
+		"date" : "03/11/12",
+		"details" : "...and cat mapping."
+	},
+	{
+		"month": "march",
+		"photoURL" : "http://distilleryimage1.s3.amazonaws.com/7a504e3872b311e1989612313815112c_7.jpg",
+		"city" : "Oakland, Ca",
+		"date" : "03/20/12",
+		"details" : "Best friend's getting hitched - I made the invites!"
+	},
+	{
+		"month": "march",
+		"photoURL" : "http://distilleryimage0.s3.amazonaws.com/feeb0f78790911e1b9f1123138140926_7.jpg",
+		"city" : "Oakland, Ca",
+		"date" : "03/28/12",
+		"details" : "Photoshoot of 'typical' day in the office"
+	},
+	{
+		"month": "april",
+		"photoURL" : "http://distilleryimage3.s3.amazonaws.com/a65b9e98806311e1b10e123138105d6b_7.jpg",
+		"city" : "San	Fransico, Ca",
+		"date" : "04/06/12",
+		"details" : "We met @swissmiss - famous graphic designer and internet-er!"
+	},
+	{
+		"month": "april",
+		"photoURL" : "http://distilleryimage3.s3.amazonaws.com/db482d748bee11e1abd61231381b6d77_7.jpg",
+		"city" : "Portland, Or",
+		"date" : "04/21/12",
+		"details" : "Portland's best (and maybe the nation, too) coffee, Stumptown."
+	},
+	{
+		"month": "april",
+		"photoURL" : "http://distilleryimage3.s3.amazonaws.com/5a47eb348e5911e180d51231380fcd7e_7.jpg",
+		"city" : "Portland, Or",
+		"date" : "04/24/12",
+		"details" : "Awww."
+	},
+	{
+		"month": "may",
+		"photoURL" : "http://distilleryimage6.s3.amazonaws.com/6832764c9c7311e1abd61231381b6d77_7.jpg",
+		"city" : "Oakland, Ca",
+		"date" : "05/12/12",
+		"details" : "A taco break at the TacoConf Max and Mikeal host with 80+ attendees."
+	},
+	{
+		"month": "may",
+		"photoURL" : "http://distilleryimage2.s3.amazonaws.com/d4744d92a3c311e1b10e123138105d6b_7.jpg",
+		"city" : "Buenos Aires, Ar",
+		"date" : "05/21/12",
+		"details" : "Using my passport again!"
+	},
+	{
+		"month": "may",
+		"photoURL" : "http://distilleryimage9.s3.amazonaws.com/6962cba4a43711e1af7612313813f8e8_7.jpg",
+		"city" : "Buenos Aires, Ar",
+		"date" : "05/22/12",
+		"details" : "The Cat Garden and Max's happiest day."
+	},
+	{
+		"month": "may",
+		"photoURL" : "http://distilleryimage9.s3.amazonaws.com/3371d6bea43e11e1b9f1123138140926_7.jpg",
+		"city" : "Buenos Aires, Ar",
+		"date" : "05/22/12",
+		"details" : "Not sure how I feel about this."
+	},
+	{
+		"month": "may",
+		"photoURL" : "http://distilleryimage6.s3.amazonaws.com/ec3c5e00a52211e1a39b1231381b7ba1_7.jpg",
+		"city" : "Buenos Aires, Ar",
+		"date" : "05/24/12",
+		"details" : "Tandemed here, too!"
+	},
+	{
+		"month": "may",
+		"photoURL" : "http://distilleryimage5.s3.amazonaws.com/bafe5f9aa7bc11e1b10e123138105d6b_7.jpg",
+		"city" : "New Oleans, La",
+		"date" : "05/26/12",
+		"details" : "More biking"
+	},
+	{
+		"month": "may",
+		"photoURL" : "http://distilleryimage1.s3.amazonaws.com/8e37f8a0a84211e1b2fe1231380205bf_7.jpg",
+		"city" : "New Orleans, La",
+		"date" : "05/27/12",
+		"details" : "Tempreture shock! 100 degrees in NOLA!"
+	},
+	{
+		"month": "may",
+		"photoURL" : "http://distilleryimage4.s3.amazonaws.com/4d7df3bea8ba11e1be6a12313820455d_7.jpg",
+		"city" : "New Oleans, La",
+		"date" : "05/27/12",
+		"details" : "Charlotte, Morgan and Kathy"
+	},
+	{
+		"month": "june",
+		"photoURL" : "http://distilleryimage11.s3.amazonaws.com/56a89ce6b87d11e1a9f71231382044a1_7.jpg",
+		"city" : "Boston, Ma",
+		"date" : "06/17/12",
+		"details" : "My old, stoping grounds!"
+	},
+		{
+		"month": "july",
+		"photoURL" : "http://distilleryimage9.s3.amazonaws.com/04b345c8c3d911e19894123138140d8c_7.jpg",
+		"city" : "Portland, Or",
+		"date" : "07/01/12",
+		"details" : "Back in Portland!"
+	},
+	{
+		"month": "july",
+		"photoURL" : "http://distilleryimage9.s3.amazonaws.com/9d2d3696c3e911e19b0622000a1e8a4f_7.jpg",
+		"city" : "Portland, Or",
+		"date" : "07/01/12",
+		"details" : "From whence he came."
+	},
+	{
+		"month": "july",
+		"photoURL" : "http://distilleryimage5.s3.amazonaws.com/56632f6cce2b11e1bef722000a1e8bb5_7.jpg",
+		"city" : "San Fransico, Ca",
+		"date" : "07/14/12",
+		"details" : "SF for just a bit more..."
+	},
+	{
+		"month": "july",
+		"photoURL" : "http://distilleryimage0.s3.amazonaws.com/aeb77390d2b711e18ce622000a1e880e_7.jpg",
+		"city" : "Oakland, Ca",
+		"date" : "07/20/12",
+		"details" : "...cause I'm moving to Oakland!"
+	},
+	{
+		"month": "july",
+		"photoURL" : "http://distilleryimage5.s3.amazonaws.com/ad6753bed2dc11e1b62722000a1e8b36_7.jpg",
+		"city" : "Oakland, Ca",
+		"date" : "07/21/12",
+		"details" : "My new neighborhood! (Lake Merrit)."
+	},
+	{
+		"month": "july",
+		"photoURL" : "http://distilleryimage4.s3.amazonaws.com/94a1acb2d43511e1a953123138104e29_7.jpg",
+		"city" : "Oakland, Ca",
+		"date" : "07/22/12",
+		"details" : "My new building!"
+	},
+	{
+		"month": "august",
+		"photoURL" : "http://distilleryimage0.s3.amazonaws.com/24ec4992e66211e1b8031231380e76c6_7.jpg",
+		"city" : "Atlanta, Ga",
+		"date" : "08/14/12",
+		"details" : "Charlotte, at 11 months."
+	},
+	{
+		"month": "august",
+		"photoURL" : "http://distilleryimage2.s3.amazonaws.com/6803d262ebea11e1aa6822000a1ea033_7.jpg",
+		"city" : "Macon, Ga",
+		"date" : "08/14/12",
+		"details" : "Macon from tower at Mercer."
+	},
+	{
+		"month": "august",
+		"photoURL" : "http://distilleryimage8.s3.amazonaws.com/c484b600effa11e199b11231380729f1_7.jpg",
+		"city" : "Oakland, Ca",
+		"date" : "08/27/12",
+		"details" : "Why he has a warehouse."
+	},
+	{
+		"month": "august",
+		"photoURL" : "http://distilleryimage1.s3.amazonaws.com/be537d8ef4c311e1a9d822000a1e9de9_7.jpg",
+		"city" : "Angel Island, Ca",
+		"date" : "09/01/12",
+		"details" : "Hello SF, from Angel Island."
+	},
+	{
+		"month": "september",
+		"photoURL" : "http://distilleryimage7.s3.amazonaws.com/b5ed35ccf49111e1871d22000a1d038b_7.jpg",
+		"city" : "Angel Island, Ca",
+		"date" : "09/01/12",
+		"details" : "Blonde Bombshells. Max and my friend (and felow 2012 CfAer) Alex."
+	},
+	{
+		"month": "september",
+		"photoURL" : "http://distilleryimage3.s3.amazonaws.com/cd566728f60e11e186b922000a1e8868_7.jpg",
+		"city" : "Berkeley, Ca",
+		"date" : "09/03/12",
+		"details" : "Weiner Nationals!"
+	},
+	{
+		"month": "september",
+		"photoURL" : "http://distilleryimage5.s3.amazonaws.com/56a131b2f78a11e1b2c322000a1e9e1f_7.jpg",
+		"city" : "Marshall, Ca",
+		"date" : "09/05/12",
+		"details" : "In the country for Node Summercamp"
+	},
+	{
+		"month": "september",
+		"photoURL" : "http://distilleryimage0.s3.amazonaws.com/6103aa1af85011e1baac22000a1cddc4_7.jpg",
+		"city" : "Marshall, Ca",
+		"date" : "09/06/12",
+		"details" : "California trees."
+	},
+	{
+		"month": "september",
+		"photoURL" : "http://distilleryimage2.s3.amazonaws.com/108f7e58fe9811e18c4722000a1e8c9e_7.jpg",
+		"city" : "New Orleans, La",
+		"date" : "09/14/12",
+		"details" : "Two days in NOLA."
+	},
+	{
+		"month": "october",
+		"photoURL" : "http://distilleryimage4.s3.amazonaws.com/45dd941012f111e29d8c22000a1fbd8b_7.jpg",
+		"city" : "San Fransico, Ca",
+		"date" : "10/10/12",
+		"details" : "SF's finest coffee comes from Oakland."
+	},
+	{
+		"month": "october",
+		"photoURL" : "http://distilleryimage0.s3.amazonaws.com/4e5c480e14c511e2b95b22000a1fab39_7.jpg",
+		"city" : "Portland, Or",
+		"date" : "10/12/12",
+		"details" : "Hello again, Steel Bridge."
+	},
+	{
+		"month": "october",
+		"photoURL" : "http://distilleryimage5.s3.amazonaws.com/01f55f1a1f0a11e283b822000a1c880e_7.jpg",
+		"city" : "Portland, Or",
+		"date" : "10/26/12",
+		"details" : "GO BUCS!"
+	},
+	{
+		"month": "october",
+		"photoURL" : "http://distilleryimage10.s3.amazonaws.com/b4bb83e4209111e282e022000a1fbc68_7.jpg",
+		"city" : "New York City, Ny",
+		"date" : "10/31/12",
+		"details" : "Happy Halloween, NYC! We're Ryan Dahl (friend and creator of Node.js)"
+	},
+	{
+		"month": "november",
+		"photoURL" : "http://distilleryimage4.s3.amazonaws.com/e20f5ba0254511e29ad022000a1f9a79_7.jpg",
+		"city" : "London, UK",
+		"date" : "11/02/12",
+		"details" : "Six years later, back in London."
+	},
+	{
+		"month": "november",
+		"photoURL" : "http://distilleryimage7.s3.amazonaws.com/e2d5d4c225d311e2b6c722000a9d0edd_7.jpg",
+		"city" : "London, UK",
+		"date" : "11/03/12",
+		"details" : "Cute breakfasts."
+	},
+	{
+		"month": "november",
+		"photoURL" : "http://distilleryimage10.s3.amazonaws.com/ac95615a2d2311e2892d22000a1fc2ac_7.jpg",
+		"city" : "London, UK",
+		"date" : "11/12/12",
+		"details" : "The eye."
+	},
+	{
+		"month": "november",
+		"photoURL" : "http://distilleryimage4.s3.amazonaws.com/b3cf76ce303c11e2b93522000a1fc2df_7.jpg",
+		"city" : "San Fransico, Ca",
+		"date" : "11/16/12",
+		"details" : "Last day of the fellowship, trip to science museum. Baby ostrich!"
+	},
+	{
+		"month": "november",
+		"photoURL" : "http://distilleryimage6.s3.amazonaws.com/dfc242ea34f911e28b3522000a1f9867_7.jpg",
+		"city" : "Oakland, Ca",
+		"date" : "11/24/12",
+		"details" : "Thanksgiving with wonderful friends."
+	},
+		{
+		"month": "november",
+		"photoURL" : "http://distilleryimage4.s3.amazonaws.com/f3b7ce5e375211e28a6422000a1fc312_7.jpg",
+		"city" : "Oakland, Ca",
+		"date" : "11/25/12",
+		"details" : "It's beginning to look a lot like Christmas."
+	},
+	{
+		"month": "december",
+		"photoURL" : "http://distilleryimage0.s3.amazonaws.com/23a4ec183ea211e2a1b122000a1f9702_7.jpg",
+		"city" : "San Jose, Ca",
+		"date" : "12/05/12",
+		"details" : "Winchester Mystery House!"
+	},
+	{
+		"month": "december",
+		"photoURL" : "http://distilleryimage0.s3.amazonaws.com/23a4ec183ea211e2a1b122000a1f9702_7.jpg",
+		"city" : "San Jose, Ca",
+		"date" : "12/05/12",
+		"details" : "Winchester Mystery House!"
+	},
+	{
+		"month": "december",
+		"photoURL" : "http://distilleryimage3.s3.amazonaws.com/1ce0d8b449d911e2ae2a22000a1f9723_7.jpg",
+		"city" : "Miami, Fl",
+		"date" : "12/19/12",
+		"details" : "Quickest trip ever."
+	},
+	{
+		"month": "december",
+		"photoURL" : "http://distilleryimage4.s3.amazonaws.com/b0f5f0104ee911e2ab9022000a9f18e0_7.jpg",
+		"city" : "Oakland, Ca",
+		"date" : "12/25/12",
+		"details" : "Christmas day cinnimon rolls is tradition."
+	}
+]
