@@ -14,7 +14,7 @@
  * @since 		Starkers 4.0
  */
 ?>
-<?php get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
+<?php get_template_parts( array( 'parts/shared/html-header-mom', 'parts/shared/header' ) ); ?>
 <div id="content" class="momPage">
 <div class="span4">
 	<div class="span3">
