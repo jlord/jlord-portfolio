@@ -1,0 +1,65 @@
+
+/* MOM PAGE */
+.horzSec {text-transform: uppercase; font-family: Open Sans, Arial, sans-serif; font-size: 16px; font-weight: 300; letter-spacing: .01em; width: 100%; padding-bottom: 6px; border-bottom: 1px dashed #333; margin-bottom: 64px;}
+.scenesSec {margin-bottom: 15px;}
+.dim {padding-bottom: 15px; color: #acacac;}
+.flightStatus img, #content p.lrgNumber, #content p.numCaption {text-align: center;}
+#content p.lrgNumber {font-family: Merriweather; Georgia, serif; font-size: 82px; font-weight: 600; padding-bottom: 0px;}
+#content p.numCaption {font-family: Open Sans, Arial, serif; font-size: 19px; text-transform: uppercase; font-weight: 300;}
+.itenerary {width: 100%; margin: 40px 0px;}
+.itenerary {padding: 20px 0px 100px 0px;}
+.itenerary td {padding: 10px 10px 0px 10px;}
+.month {text-transform: uppercase; font-family: Open Sans, Arial, sans-serif; font-size: 15px; font-weight: 300;}
+.city {text-transform: uppercase; font-family: Open Sans, Arial, sans-serif; font-size: 15px; font-weight: 700;}
+.desc {font-family: Merriweather; Georgia, serif; font-size: 15px; font-weight: 300;}
+.oneCell:nth-child(4n+4) {margin: 0px;}
+.oneCell {height: 424px; background: transparent;}
+.oneCell .month {background: #acacac; padding: 3px 6px; margin-top: 8px;}
+#content #photoData p {font-size: 24px; font-family: Covered By Your Grace; line-height: inherit; text-align: center;}
+.momPage h5 {padding: 8px 13px; margin: 9px -25px 9px 0px;}
+.momPage p a {padding-bottom: 1px; border-bottom: 1px solid #44FFB4;}
+.oneCell img {border-radius: 1000px; margin-bottom: 30px;}
+
+/*.momPage h5.january {background: #E4E540;}
+.momPage h5.february {background: #67C6BB;}
+.momPage h5.march {background: #F6F18F;}
+.momPage h5.april {background: #94D4CC;}
+.momPage h5.may {background: #C8C42D;}
+.momPage h5.june {background: #21ABA7;}
+.momPage h5.july {background: #F6F18F;}
+.momPage h5.august {background: #94D4CC;}
+.momPage h5.september {background: #E4E540;}
+.momPage h5.october {background: #1AA0A3;}
+.momPage h5.november {background: #C8C42D;}
+.momPage h5.december {background: #1BABAC;}*/
+.oneCell:nth-child(4n+4) h5 {margin-right: 0px;}
+.momPage h5 {background: #efefef;}
+/*.momPage h5 {border-right: 1px dotted #acacac; text-align: center;}
+.oneCell:nth-child(4n+1) h5 {border-left: 1px dotted #acacac;}*/
+
+/*.momPage h5.january {border-bottom: 3px solid #47FFD4; border-top: 3px solid #47FFD4;}
+.momPage h5.february {border-bottom: 3px solid #36E0B9; border-top: 3px solid #36E0B9;}
+.momPage h5.march {border-bottom: 3px solid #2BC4A0; border-top: 3px solid #2BC4A0;}
+.momPage h5.april {border-bottom: 3px solid #2DAC8E; border-top: 3px solid #2DAC8E;}
+.momPage h5.may {border-bottom: 3px solid #218B72; border-top: 3px solid #218B72;}
+.momPage h5.june {border-bottom: 3px solid #1C7963; border-top: 3px solid #1C7963;} 
+.momPage h5.july {border-bottom: 3px solid #096B54; border-top: 3px solid #096B54;}
+.momPage h5.august {border-bottom: 3px solid #238A7E; border-top: 3px solid #238A7E;}
+.momPage h5.september {border-bottom: 3px solid #3AA598; border-top: 3px solid #3AA598;}
+.momPage h5.october {border-bottom: 3px solid #4AC7B8; border-top: 3px solid #4AC7B8;}
+.momPage h5.november {border-bottom: 3px solid #4BDBCA; border-top: 3px solid #4BDBCA;}
+.momPage h5.december {border-bottom: 3px solid #64F1E1; border-top: 3px solid #64F1E1;}*/
+
+/*.momPage h5.january {border-bottom: 4px solid #47FFD4; }
+.momPage h5.february {border-bottom: 4px solid #36E0B9;}
+.momPage h5.march {border-bottom: 4px solid #2BC4A0; }
+.momPage h5.april {border-bottom: 4px solid #2DAC8E;}
+.momPage h5.may {border-bottom: 4px solid #218B72;}
+.momPage h5.june {border-bottom: 4px solid #1C7963;} 
+.momPage h5.july {border-bottom: 4px solid #096B54; }
+.momPage h5.august {border-bottom: 4px solid #238A7E; }
+.momPage h5.september {border-bottom: 4px solid #3AA598;}
+.momPage h5.october {border-bottom: 4px solid #4AC7B8;}
+.momPage h5.november {border-bottom: 4px solid #4BDBCA;}
+.momPage h5.december {border-bottom: 4px solid #64F1E1;}
+.oneCell:nth-child(4n+4) h5 {margin-right: 0px;}*/

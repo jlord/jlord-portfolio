@@ -7,6 +7,7 @@
 	<head>
 		<title><?php bloginfo( 'name' ); ?><?php wp_title( '|' ); ?></title>
 		<?php wp_head() ?>
+		<link href="/wp-content/themes/Starkers/mom.css?0" media="screen" rel="stylesheet" type="text/css">
 		<!-- <link href="/wp-content/themes/Starkers/style.css?0" media="screen" rel="stylesheet" type="text/css"> -->
 		<link href="/wp-content/themes/Starkers/rainbow.github.css?0" media="screen" rel="stylesheet" type="text/css">
 
