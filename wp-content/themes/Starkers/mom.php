@@ -62,7 +62,8 @@
 </div>
 
 <div class="span4">
-	<div class="horzSec">Scenes</div>
+	<div class="horzSec scenesSec">Scenes</div>
+	<small class="dim">Click for full size</small>
 	<div id="photoData">hi waitng</div>
 </div>
 
@@ -71,15 +72,17 @@
 <script src="/wp-content/themes/Starkers/sheetsee.js?0"></script>
 <script src="/wp-content/themes/Starkers/tabletop.js" type="text/javascript"></script> 
 <script src="/wp-content/themes/Starkers/ICanHaz.js" type="text/javascript"></script> 
-<script src="/wp-content/themes/Starkers/year.json" type="text/javascript"></script> 
+<script src="/wp-content/themes/Starkers/year.json" type="text/javascript"></script>
+<script src="/wp-content/themes/Starkers/jquery-1.8.2.min.js" type="text/javascript"></script> 
+
 
 <script id="photoData" type="text/html">
 		{{#rows}}
-	  <div class="span1 oneCell thumbnail">
-	    	
-			<h5 class="{{month}}">{{date}} in {{city}}</h5>
+		<div class="{{month}} span1 oneCell thumbnail">
+	 	 	<h5 class="{{month}}">{{date}} in {{city}}</h5>
 			<a href="{{photoURL}}" target="_blank"><img src="{{photoURL}}"/></a>
 			<p>{{details}}</p>
+		
 			
 	  </div>
 		{{/rows}}
@@ -103,6 +106,7 @@
   return coffee
   }
 
+  $(".january.monthHeader:first").css("color", "red");
   
   console.log("this is jan:", coffeeFilter(yearData, "month", "january").length)
 

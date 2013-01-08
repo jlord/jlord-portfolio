@@ -226,7 +226,7 @@ var yearData = [
 		"details" : "Why he has a warehouse."
 	},
 	{
-		"month": "august",
+		"month": "september",
 		"photoURL" : "http://distilleryimage1.s3.amazonaws.com/be537d8ef4c311e1a9d822000a1e9de9_7.jpg",
 		"city" : "Angel Island, Ca",
 		"date" : "09/01/12",
@@ -339,10 +339,10 @@ var yearData = [
 	},
 	{
 		"month": "december",
-		"photoURL" : "http://distilleryimage0.s3.amazonaws.com/23a4ec183ea211e2a1b122000a1f9702_7.jpg",
-		"city" : "San Jose, Ca",
+		"photoURL" : "http://distilleryimage6.s3.amazonaws.com/5970a2903e8b11e2a03a22000a1fbd56_7.jpg",
+		"city" : "Santa Cruz, Ca",
 		"date" : "12/05/12",
-		"details" : "Winchester Mystery House!"
+		"details" : "Day trippin on my inbetween jobs time."
 	},
 	{
 		"month": "december",
