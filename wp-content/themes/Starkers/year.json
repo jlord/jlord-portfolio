@@ -62,7 +62,7 @@ var yearData = [
 		"photoURL" : "http://distilleryimage4.s3.amazonaws.com/dea988f26aef11e1989612313815112c_7.jpg",
 		"city" : "Oakland, Ca",
 		"date" : "03/11/12",
-		"details" : "...and cat mapping."
+		"details" : "...and biking."
 	},
 	{
 		"month": "march",
@@ -104,7 +104,7 @@ var yearData = [
 		"photoURL" : "http://distilleryimage6.s3.amazonaws.com/6832764c9c7311e1abd61231381b6d77_7.jpg",
 		"city" : "Oakland, Ca",
 		"date" : "05/12/12",
-		"details" : "A taco break at the TacoConf Max and Mikeal host with 80+ attendees."
+		"details" : "A taco break at the TacoConf Max and Mikeal hosted with 80+ attendees."
 	},
 	{
 		"month": "may",
