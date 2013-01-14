@@ -18,7 +18,7 @@
 <?php get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header-work' ) ); ?>
 	<div id="content" class="workPage">
 		<div class="row">
-			<div class="thumbnail map"><a href="/work/boston-map/"><img class="thumb" src="/wp-content/uploads/boston_thumb.jpg"></a></div>
+			<div class="thumbnail web"><a href="/work/see-penny-work/"><img class="thumb" src="/wp-content/uploads/seepennywork_thumb.png"></a></div>
 			<div class="thumbnail web"><a href="/work/file-bakery/"><img class="thumb" src="/wp-content/uploads/filebakery-thumb.png"></a></div>
 			<div class="thumbnail map web"><a href="/work/mta/"><img class="thumb" src="/wp-content/uploads/mta_thumb.png"></a></div>
 			<div class="thumbnail graphic"><a href="/work/common-scale/"><img class="thumb" src="/wp-content/uploads/speedfatality_thumb.jpg"></a></div>
@@ -26,8 +26,8 @@
 		<div class="row">
 			<div class="thumbnail graphic map"><a href="/work/more-bra/"><img class="thumb" src="/wp-content/uploads/bra_misc_thumb.jpg"></a></div>
 			<div class="thumbnail map graphic"><a href="/work/apa-planners-guide/"><img class="thumb" src="/wp-content/uploads/plannersguide_thumb.png"></a></div>
-			<div class="thumbnail web"><a href="/work/see-penny-work/"><img class="thumb" src="/wp-content/uploads/seepennywork_thumb.png"></a></div>
-			<div class="thumbnail web"><a href="/work/stuart-street/"><img class="thumb" src="/wp-content/uploads/stuart_thumb.jpg"></a></div>
+			<div class="thumbnail map"><a href="/work/boston-map/"><img class="thumb" src="/wp-content/uploads/boston_thumb.jpg"></a></div>
+			<div class="thumbnail graphic"><a href="/work/stuart-street/"><img class="thumb" src="/wp-content/uploads/stuart_thumb.jpg"></a></div>
 		</div>
 		<div class="row">
 			<div class="thumbnail graphic"><a href="/work/architecture/"><img class="thumb" src="/wp-content/uploads/arch_thumb.jpg"></a></div>

@@ -30,8 +30,8 @@
 			My background is in architecture and urban design but I've a got a strong tech side and am focusing
 			on using those skills to communicate through the web. I'm big on cities, open source, javascript, coffee, bikes and 
 			the awesome community of other folks who feel the same.</p> 
+			<p>Most recently through my CfA fellowship I built: <a href="/work/see-penny-work/">See Penny Work</a>, <a href="https://github.com/jllord/sheetsee.js">sheetsee.js</a> and <a href="/work/mta/">MTA Transit Map</a></p>
 			<p class="biobody">I hail from the heart of Georgia but for now I live in Oakland, California. <a href="http://mailto:to.jlord@gmail.com">Let me know</a> if you have a project in mind.</p>
-		
 			<h3 class="capTitle">...</h3>
 			<ul><li>After an urban design study abroad year in Paris my senior year of college I shifted my focus from architecture to urban design. While working in architecture after graduation I quickly learned new Building Information Modeling software
 				and started visualizing the built environment, working on single family and multi-family scale projects from concept to construction documents as well as earning LEED BD&C accreditation. Working for the City of Boston in the Boston Redevelopment Authority's
