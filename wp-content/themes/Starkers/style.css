@@ -167,6 +167,7 @@ a img {border: none; background: #fff;}
 #sources h3, #content article h3 {font-size: 14px; font-weight: 700;}
 #sources ol {list-style: decimal; padding-left: 16px;}
 #sources li, #content #sources li {list-style: decimal; padding: 6px 0 0 4px; font-family: Open Sans; font-size: 10px; font-weight: 400;}
+img.bigImg {max-width: 1000px;}
 
 /* PROJECT PAGE */
 #post-nav {height: 22px; margin-top: 20px;}
@@ -291,7 +292,7 @@ a.active {border-bottom: 1px solid #E5E53E;}
 }
 /* landscape tablet */
 @media (max-width: 1024px) {
-.span3 img {max-width: 100%; height: auto;}
+.span3 img, img.bigImg  {max-width: 100%; height: auto;}
 #wrapper {position: relative; max-width: 979px; margin: 0px auto;	}
 .row {max-width: 979px; padding: 0px 0px 25px 0px; margin: 0px; float: left;}
 .thumbnail {max-width: 23.5%; height: auto; background: #efefef; margin: 0 2% 0 0; float: left;}
@@ -305,7 +306,7 @@ a.active {border-bottom: 1px solid #E5E53E;}
 
 /* portrait tablet */
 @media (max-width: 768px) {
-.span3 img {max-width: 100%; height: auto;}
+.span3 img, img.bigImg  {max-width: 100%; height: auto;}
 #wrapper {position: relative; max-width: 767px; margin: 0px auto;	}
 .row {max-width: 767px; padding: 0px 0px 25px 0px; margin: 0px; float: left;}
 .thumbnail {max-width: 23.5%; height: auto; background: #efefef; margin: 0 2% 0 0; float: left;}
@@ -322,7 +323,7 @@ a.active {border-bottom: 1px solid #E5E53E;}
 }
 
 @media (max-width: 480px) {
-.span3 img {max-width: 100%; height: auto;}
+.span3 img, img.bigImg  {max-width: 100%; height: auto;}
 #wrapper {position: relative; max-width: 480px; margin: 0px auto;	}
 .row {max-width: 100%; padding: 0px 0px 0 0px; margin: 0px; float: left;}
 .thumbnail {max-width: 48%; height: auto; background: #efefef; margin: 0 4% 4% 0; float: left;}
@@ -347,7 +348,7 @@ a.active {border-bottom: 1px solid #E5E53E;}
  
 /* Landscape phones and down */
 @media (max-width: 380px) {
-.span3 img {max-width: 100%; height: auto;}
+.span3 img, img.bigImg  {max-width: 100%; height: auto;}
 #wrapper {position: relative; max-width: 480px; margin: 0px auto;	}
 .row {max-width: 100%; padding: 0px 0px 25px 0px; margin: 0px; float: left;}
 .thumbnail {max-width: 480px; height: auto; background: #efefef; margin: 0 0 25px 0; float: left;}
