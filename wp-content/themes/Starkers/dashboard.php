@@ -78,7 +78,7 @@
   {{#rows}}
     <tr><td class="postDate">{{instadate}}</td></tr>
     <tr><td class="instaImg"><img src="{{instasource}}" width="209.25px"/></td></tr>
-    <tr><td class="instaCaption">the caption {{instacaption}}</td></tr>
+    <tr><td class="instaCaption">{{instacaption}}</td></tr>
   {{/rows}}
   </table>
 </script>
