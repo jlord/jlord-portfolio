@@ -240,7 +240,7 @@ textarea {padding: 6px; font-family: Merriweather, Georgia, serif; font-size: 13
 #tweetBox {padding-bottom: 24px;}
 
 .dashboard #instagram {margin-bottom: 16px;}
-.instaCaption {font-family: Merriweather, Georgia, serif; font-size: 12px; padding: 7px 0px 10px 11px; background: #eeeeee;}
+.instaCaption {font-family: Merriweather, Georgia, serif; font-size: 12px; padding: 10px 11px; background: #eeeeee;}
 .instaImg {background: #eeeeee; width: 100%; padding: 11px;}
 .instaImgCirc img {border-radius: 1000px; margin-bottom: 30px;}
 .instaImgCirc:nth-child(4n+4) {margin: 0px;}

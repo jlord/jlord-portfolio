@@ -24,7 +24,7 @@
 		<div class="instaBox">
 			<h3>Lastest Instagram</h3>
 			<div id="instagram"></div>
-			<p>See <a href="http://jlord.us/instagram">all</a> of feed.</p>
+			<p>See <a href="http://jlord.us/instagram">more</a> of feed - in circles!</p>
 		</div>
 	</div>
 
@@ -78,7 +78,7 @@
   {{#rows}}
     <tr><td class="postDate">{{instadate}}</td></tr>
     <tr><td class="instaImg"><img src="{{instasource}}" width="209.25px"/></td></tr>
-    <tr><td class="instaCaption">{{instacaption}}</td></tr>
+    <tr><td class="instaCaption">the caption {{instacaption}}</td></tr>
   {{/rows}}
   </table>
 </script>
@@ -102,21 +102,25 @@
 
   showDataA = function(data) {
 		var data = data
-		 instaData = data
-		return instaData
+		var instaData = data
 
 		var instagram = ich.instagram({
 			"rows": getLast(instaData, 1)
 		})
 		document.getElementById('instagram').innerHTML = instagram;
+
+		return instaData
 	}
+
+
+	
 
 	showDataB = function(data) {
 		var data = data
 		var pocketData = data
 
  		var pocketReader = ich.pocketReader({
-    	"rows": getLast(pocketData, 4)
+    	"rows": getLast(pocketData, 6)
  		})
  		document.getElementById('pocketReader').innerHTML = pocketReader; 
 		}
