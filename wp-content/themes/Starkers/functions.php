@@ -26,6 +26,8 @@
 	======================================================================================================================== */
 
 	add_theme_support('post-thumbnails');
+	set_post_thumbnail_size( 0, 500, false ); // default Post Thumbnail dimensions (cropped)
+
 	
 	// register_nav_menus(array('primary' => 'Primary Navigation'));
 
@@ -38,6 +40,12 @@
 	add_action( 'wp_enqueue_scripts', 'script_enqueuer' );
 
 	add_filter( 'body_class', 'add_slug_to_body_class' );
+
+	function new_excerpt_more($more) {
+       global $post;
+	return ' <a href="'. get_permalink($post->ID) . '">moar...</a>';
+	}
+	add_filter('excerpt_more', 'new_excerpt_more');
 
 	/* ========================================================================================================================
 	

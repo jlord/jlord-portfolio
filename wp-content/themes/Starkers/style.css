@@ -153,7 +153,7 @@ time, .postDate {font-family: Open Sans; letter-spacing: .2em; font-size: 9px; c
 .postMeta {border-top: 2px solid #333; padding-top: 8px; height: 70px; float: right; margin: 0px 0px 25px 25px;}
 .tags {font-family: Open Sans; letter-spacing: .2em; font-size: 9px; color: #777; text-transform: uppercase; }
 #post p a, .loop p a, .single p a {padding-bottom: 1px; border-bottom: 1px solid #44FFB4;}
-#post p, #content p {font-size: 18px; line-height: 1.8em; padding-bottom: 14px;}
+#post p, #content p {font-size: 18px; line-height: 1.6em; padding-bottom: 14px;}
 #post {padding-bottom: 35px;}
 #post-to-fro {padding-top: 15px;}
 .aTag::after {content: ', '}
@@ -227,7 +227,7 @@ textarea {padding: 6px; font-family: Merriweather, Georgia, serif; font-size: 13
 #searchsubmit {background: #eeeeee; border: none; font-family: Open Sans, Arial, sans-serif; font-size: 12px; text-transform: uppercase; padding: 3px 8px; display: none;}
 .screen-reader-text {font-family: Open Sans, Arial, sans-serif; text-transform: lowercase; font-size: 10px;}
 .searchPage h2 {font-family: Merriweather; font-size: 22px; font-weight: 500; padding-bottom: 18px;}
-.searchPage h1, .dashboard h1, .momPage h1 {font-family: Merriweather; font-size: 33px;font-weight: 700; padding-bottom: 18px;}
+.searchPage h1, .dashboard h1, .momPage h1, .front-dashboard h1 {font-family: Merriweather; font-size: 33px;font-weight: 700; padding-bottom: 18px;}
 
 /* THE META */
 #content.projectPage li {font-family: Open Sans, Arial, sans-serif; font-size: 9px; text-transform: uppercase;}
@@ -272,6 +272,22 @@ a.active {border-bottom: 1px solid #E5E53E;}
 
 .pennyArticle {margin: 20px 0px;}
 
+h3.box-header {background:#44FFB4; color: #fff; padding: 7px 10px; display: table; margin-bottom: 22px;}
+.hi-currently {border-bottom: 3px solid #e6e6e6;}
+.fd-section {margin-top: 30px;}
+
+#fp-blog-entry h1 {font-size: 24px; font-weight: normal;}
+#fp-blog-entry img  {width: 100%; height: auto; padding-bottom: 18px;}
+#fp-blog-entry p {font-size: 13px; font-weight: normal;}
+#fp-blog-entry {margin-top: 10px;}
+
+#pocketReader .postDate, #instagram .postDate {padding: 10px 0px 4px 0px;}
+#pocketReader .instaCaption {background: transparent; padding: 0px 0px 7px 0px;}
+#pocketReader {}
+#pocketReader .instaCaption a, #tweet a {color: #333; padding-bottom: 1px; border-bottom: 1px solid #44FFB4; line-height: 1.5em; }
+
+#tweet {background: transparent; padding: 12px 0px;}
+#tweetBox {margin-top: 10px;}
 
 /* ---------------------------------------------------------------------------------------------------------- 
 03 Media queries (using a mobile-first approach) ------------------------------------------------------------
