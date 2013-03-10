@@ -15,11 +15,11 @@
 <div class="span4 hi-currently">
 	<div class="span2">
 		<h1>Hello</h1>
-		<p>I spend my time in the worlds and sometimes intersections of open source, urban design, governance and citizenry, static and web visualizations.</p>
+		<p>I spend my time in the spaces and sometimes intersections of open source, urban design, government technology, citizenry and information design. Also bikes, Oakland, coffee.</p>
 	</div>
 	<div class="span2">
 		<h3 class="box-header">Currently</h3>
-		<small>I’ll be spending the next few months contracting at the fantastic <a href="http://www.diy.org" target="_blank">DIY.org</a> to build out the hacker skills and challenges; taking my CfA project <a href="http://jlord.github.com/sheetsee.js" target="_blank">sheetsee.js</a> to the next level through a Code Sprint grant from <a href="http://www.mozillaopennews.org/" target="_blank">Mozilla and the Knight Foundation</a>; and proudly a submission reader in Knight Foundation’s <a href="http://www.newschallenge.org" target="_blank">Open Gov News Challenge</a>	.</small>
+		<small>I’ll be spending the next few months contracting at the fantastic <a href="http://www.diy.org" target="_blank">DIY.org</a> to build out the hacker skills and challenges; taking my CfA project <a href="http://jlord.github.com/sheetsee.js" target="_blank">sheetsee.js</a> to the next level through a Code Sprint grant from <a href="http://www.mozillaopennews.org/" target="_blank">Mozilla and the Knight Foundation</a>; and proudly as a submission reader in Knight Foundation’s <a href="http://www.newschallenge.org" target="_blank">Open Gov News Challenge</a>	.</small>
 	</div>
 
 	</div>
