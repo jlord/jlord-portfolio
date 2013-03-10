@@ -281,13 +281,14 @@ h3.box-header {background:#44FFB4; color: #fff; padding: 7px 10px; display: tabl
 #fp-blog-entry p {font-size: 13px; font-weight: normal; line-height: 24px;}
 #fp-blog-entry {margin-top: 10px;}
 
-#fp-recent-entries {margin-top: 14px;}
+#fp-recent-entries {margin: 0 0 10px 0;}
 #fp-recent-entries a {color: #333; font-size: 14px; line-height: 18px; font-weight: 400;}
 
-#pocketReader .postDate, #instagram .postDate {padding: 10px 0px 4px 0px;}
+#pocketReader .postDate, #instagram .postDate {padding: 18px 0px 4px 0px;}
+#pocketReader .postDate:first-child {padding-top: 15px;}
 #pocketReader .instaCaption {background: transparent; padding: 0px 0px 7px 0px;}
 #pocketReader {}
-#pocketReader .instaCaption a, #tweet a, .hi-currently a, a.moar {color: #333; padding-bottom: 1px; border-bottom: 1px solid #44FFB4; line-height: 24px; }
+#pocketReader .instaCaption a, #tweet a, .hi-currently a, a.moar, .sm-sans a {color: #333; padding-bottom: 1px; border-bottom: 1px solid #44FFB4; line-height: 24px; }
 a.moar {font-weight: 700;}
 
 #tweet {background: transparent; padding: 12px 0px;}
@@ -298,7 +299,7 @@ a.moar {font-weight: 700;}
 .row h3 {margin-bottom: 10px;}
 .fd-section .row	{border-top: 3px solid #e6e6e6; padding-top: 30px;}
 
-.hi-currently small {font-size: 12px; line-height: 24px;}
+#content p.sm-sans, #content p.sm-sans a {font-size: 12px; line-height: 24px; font-family: Open Sans, sans-serif;}
 
 /* ---------------------------------------------------------------------------------------------------------- 
 03 Media queries (using a mobile-first approach) ------------------------------------------------------------

@@ -19,7 +19,7 @@
 	</div>
 	<div class="span2">
 		<h3 class="box-header">Currently</h3>
-		<small>I’ll be spending the next few months contracting at the fantastic <a href="http://www.diy.org" target="_blank">DIY.org</a> to build out the hacker skills and challenges; taking my CfA project <a href="http://jllord.github.com/sheetsee.js" target="_blank">sheetsee.js</a> to the next level through a Code Sprint grant from <a href="http://www.mozillaopennews.org/" target="_blank">Mozilla and the Knight Foundation</a>; and proudly as a submission reader in Knight Foundation’s <a href="http://www.newschallenge.org" target="_blank">Open Gov News Challenge</a>	.</small>
+		<p class="sm-sans">I’ll be spending the next few months contracting at the fantastic <a href="http://www.diy.org" target="_blank">DIY.org</a> to build out the hacker skills and challenges; taking my CfA project <a href="http://jllord.github.com/sheetsee.js" target="_blank">sheetsee.js</a> to the next level through a Code Sprint grant from <a href="http://www.mozillaopennews.org/" target="_blank">Mozilla and the Knight Foundation</a>; and proudly as a submission reader in Knight Foundation’s <a href="http://www.newschallenge.org" target="_blank">Open Gov News Challenge</a>	.</p>
 	</div>
 
 	</div>
@@ -37,7 +37,7 @@
 				<?php  the_excerpt(); ?>
 			<?php endforeach; ?> 
 		</div>
-		<h3>Less Latest</h3>
+		<h4>More Entries</h4>
 			<div id="fp-recent-entries">
 				<ul>
 				<?php
@@ -49,6 +49,8 @@
 				?>
 				</ul>
 			</div>
+			<h3 class="box-header">ECAB</h3>
+				<p class="sm-sans">My <a href="http://www.ecabonline.com" target="_blank">website</a> on making tangible things.</p>
 	</div>
 	<div class="span1 pocketBox">
 		<h3>Reading Articles</h3>
@@ -89,10 +91,11 @@
 			<div class="thumbnail title"><h3>Recent Work</h3><a href="/work/see-penny-work/"><img class="thumb" src="/wp-content/uploads/seepennywork_thumb.png"></a></div>
 			<div class="thumbnail notitle"><a href="/work/future-aloof/"><img class="thumb" src="/wp-content/uploads/future-aloof-thumb.png"></a></div>
 			
-			<div class="thumbnail title"><h3>Side Projects</h3><a href="/work/file-bakery/"><img class="thumb" src="/wp-content/uploads/filebakery-thumb.png"></a></div>
-			<div class="thumbnail notitle"><a href="/work/common-scale/"><img class="thumb" src="/wp-content/uploads/speedfatality_thumb.jpg"></a></div>
+			<div class="thumbnail title"><h3>Recent ECAB Projects</h3><a href="http://www.ecabonline.com/2013/03/hanging-herb-garden.html" target="_blank"><img class="thumb" src="/wp-content/uploads/ecab1.png"></a></div>
+			<div class="thumbnail notitle"><a href="http://www.ecabonline.com/2013/01/naturally-dyed-tea-towels.html" target="_blank"><img class="thumb" src="/wp-content/uploads/ecab2.png"></a></div>
 		</div>
 	</div>
+
 
 
 
