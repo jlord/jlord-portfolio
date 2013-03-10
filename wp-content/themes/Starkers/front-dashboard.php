@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Front Dashboard 
+ * Template Name: Front Dash
  *
  *
  * Please see /external/starkers-utilities.php for info on get_template_parts()
@@ -15,7 +15,7 @@
 <div class="span4 hi-currently">
 	<div class="span2">
 		<h1>Hello</h1>
-		<p>I spend my time in the worlds and sometimes intersections of open source, governance and citizenry, urban design and static and web visualizations.</p>
+		<p>I spend my time in the worlds and sometimes intersections of open source, urban design, governance and citizenry, static and web visualizations.</p>
 	</div>
 	<div class="span2">
 		<h3 class="box-header">Currently</h3>
@@ -37,6 +37,18 @@
 				<?php  the_excerpt(); ?>
 			<?php endforeach; ?> 
 		</div>
+		<h3>Less Latest</h3>
+			<div id="fp-recent-entries">
+				<ul>
+				<?php
+					$args = array( 'numberposts' => '3', 'offset' => '1' );
+					$recent_posts = wp_get_recent_posts( $args );
+					foreach( $recent_posts as $recent ){
+						echo '<li><a href="' . get_permalink($recent["ID"]) . '" title="Look '.esc_attr($recent["post_title"]).'" >' .   $recent["post_title"].'</a>  </li> ';
+					}
+				?>
+				</ul>
+			</div>
 	</div>
 	<div class="span1 pocketBox">
 		<h3>Reading Articles</h3>
@@ -70,6 +82,16 @@
 		</div>
 	</div>
 
+	</div>
+	<div class="span4 fd-section">
+		<div class="row">
+			
+			<div class="thumbnail title"><h3>Recent Work</h3><a href="/work/see-penny-work/"><img class="thumb" src="/wp-content/uploads/seepennywork_thumb.png"></a></div>
+			<div class="thumbnail notitle"><a href="/work/future-aloof/"><img class="thumb" src="/wp-content/uploads/future-aloof-thumb.png"></a></div>
+			
+			<div class="thumbnail title"><h3>Side Projects</h3><a href="/work/file-bakery/"><img class="thumb" src="/wp-content/uploads/filebakery-thumb.png"></a></div>
+			<div class="thumbnail notitle"><a href="/work/common-scale/"><img class="thumb" src="/wp-content/uploads/speedfatality_thumb.jpg"></a></div>
+		</div>
 	</div>
 
 

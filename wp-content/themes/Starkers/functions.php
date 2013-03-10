@@ -43,7 +43,7 @@
 
 	function new_excerpt_more($more) {
        global $post;
-	return ' <a href="'. get_permalink($post->ID) . '">moar...</a>';
+	return '... <a class="moar" href="'. get_permalink($post->ID) . '">read moar</a>';
 	}
 	add_filter('excerpt_more', 'new_excerpt_more');
 
