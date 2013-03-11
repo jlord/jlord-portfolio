@@ -129,7 +129,7 @@ li a img {padding-bottom: 5px;}
 .span4 {max-width: 1000px; margin: 0px; float: left; width: 100%;}
 .span2:last-child, .span1:last-child, .span3:last-child, .thumbnail:last-child {margin: 0px;}
 .row {max-width: 1000px; padding: 0px 0px 25px 0px; margin: 0px; float: left;}
-.thumbnail {max-width: 231.25px; /*height: 150px; */background: #efefef; margin: 0px 25px 0px 0px; float: left;}
+.thumbnail {width: 231.25px; /*height: 150px; */background: #fff; margin: 0px 25px 0px 0px; float: left;}
 .double-thumbnail {background: #eeeeee; display: block; max-width: 447.5px; float: left; margin: 0px 25px 0px 0px; height: 110px; padding: 20px;}
 .fixed {position: fixed; z-index: 10px;}
 /*.projImgColumn {position: relative; left: 256.25px;}*/
@@ -273,7 +273,7 @@ a.active {border-bottom: 1px solid #E5E53E;}
 .pennyArticle {margin: 20px 0px;}
 
 h3.box-header {background:#44FFB4; color: #fff; padding: 7px 10px; display: table; margin-bottom: 22px;}
-.hi-currently {border-bottom: 3px solid #e6e6e6;}
+.hi-currently, .latest-things {border-bottom: 3px solid #e6e6e6;}
 .fd-section {margin-top: 30px;}
 
 #fp-blog-entry h1, #fp-blog-entry h1 a {font-size: 24px; font-weight: normal; color: #333;	}
@@ -297,7 +297,8 @@ a.moar {font-weight: 700;}
 .title {background: #fff; width: auto;}
 .thumbnail.notitle {margin-top: 32px}
 .row h3 {margin-bottom: 10px;}
-.fd-section .row	{border-top: 3px solid #e6e6e6; padding-top: 30px;}
+.fd-section .span2 {width: 100%; padding-bottom: 12px;}
+.row-titles {margin-bottom: 10px;}
 
 #content p.sm-sans, #content p.sm-sans a {font-size: 12px; line-height: 24px; font-family: Open Sans, sans-serif;}
 
@@ -329,6 +330,8 @@ a.moar {font-weight: 700;}
 .span2 {max-width: 61%}
 .mapBox {max-width: 44%;}
 .video, .webmap {margin: 0px; display: block; max-width: 100%;}
+.front-dashboard .span2 {max-width: 48%;}
+.front-dashboard .span1 {max-width: 25%;}
 
 }
 
@@ -346,6 +349,7 @@ a.moar {font-weight: 700;}
 .aboutPage .span1, .aboutPage .span2, .siteInfo.span3 {max-width: 100%;}
 .pocketBox, .mapBox {max-width: 61%; margin: 0px;}
 .video, .webmap {margin: 0px; display: block; max-width: 100%;}
+#front-dashboard .span1, #front-dashboard .span2, #front-dashboard .span3, #front-dashboard .span4 {width: 100%}
 
 
 }
@@ -399,6 +403,8 @@ a.moar {font-weight: 700;}
 header li {font-size: 11px;}
 .mapBox {max-width: 100%;}
 .video, .webmap {margin: 0px; display: block; max-width: 100%;}
+.front-dashboard .span1, .front-dashboard .span2 {max-width: 100%;}
+.front-dashboard .span4 {margin-bottom: 20px;}
 
 
 }

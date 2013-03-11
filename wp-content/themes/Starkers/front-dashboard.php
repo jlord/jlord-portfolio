@@ -24,7 +24,7 @@
 
 	</div>
 
-	<div class="span4 fd-section">
+	<div class="span4 fd-section latest-things">
 	<div class="span2">
 		<h3>Latest Entry</h3>
 		<div id="fp-blog-entry">
@@ -86,13 +86,14 @@
 
 	</div>
 	<div class="span4 fd-section">
+		<div class="row-titles"><span class="span2"><h3>Recent Work</h3></span><span class="span2"><h3>Recent ECAB Projects</h3></span></div>
 		<div class="row">
 			
-			<div class="thumbnail title"><h3>Recent Work</h3><a href="/work/see-penny-work/"><img class="thumb" src="/wp-content/uploads/seepennywork_thumb.png"></a></div>
-			<div class="thumbnail notitle"><a href="/work/future-aloof/"><img class="thumb" src="/wp-content/uploads/future-aloof-thumb.png"></a></div>
+			<div class="thumbnail"><a href="/work/see-penny-work/"><img class="thumb" src="/wp-content/uploads/seepennywork_thumb.png"></a></div>
+			<div class="thumbnail"><a href="/work/future-aloof/"><img class="thumb" src="/wp-content/uploads/future-aloof-thumb.png"></a></div>
 			
-			<div class="thumbnail title"><h3>Recent ECAB Projects</h3><a href="http://www.ecabonline.com/2013/03/hanging-herb-garden.html" target="_blank"><img class="thumb" src="/wp-content/uploads/ecab1.png"></a></div>
-			<div class="thumbnail notitle"><a href="http://www.ecabonline.com/2013/01/naturally-dyed-tea-towels.html" target="_blank"><img class="thumb" src="/wp-content/uploads/ecab2.png"></a></div>
+			<div class="thumbnail"><a href="http://www.ecabonline.com/2013/03/hanging-herb-garden.html" target="_blank"><img class="thumb" src="/wp-content/uploads/ecab1.png"></a></div>
+			<div class="thumbnail"><a href="http://www.ecabonline.com/2013/01/naturally-dyed-tea-towels.html" target="_blank"><img class="thumb" src="/wp-content/uploads/ecab2.png"></a></div>
 		</div>
 	</div>
 
