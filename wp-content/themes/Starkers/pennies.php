@@ -14,7 +14,7 @@
  * @since 		Starkers 4.0
  */
 ?>
-<?php get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
+<?php get_template_parts( array( 'parts/shared/html-header-mapbox', 'parts/shared/header' ) ); ?>
 <div id="content" class="dashboard">
 <div class="span4">
 	<div class="span4" style="width: 100%;">
@@ -22,8 +22,8 @@
 	</div>
 	
 	<div class="span4" style="width: 100%;">
-		<div class="span3" style="width: 100%;"><iframe width='100%' height='450' frameBorder='0' 		src='http://a.tiles.mapbox.com/v3/jllord.pennies.html#4/39.8085/-98.4375'></iframe></div>
-		<div class="span1" style="margin: 0px; padding: 0px;"><img src="/wp-content/uploads/penny.png" width="100%"/></div>
+		<div id="map" class="span3" style="width: 100%; height: 500px;"></div>
+		<div class="span1 selectedPenny" style="margin: 0px; padding: 0px;"><img src="/wp-content/uploads/penny.png" width="100%"/></div>
 	</div>
 	
 	<div class="span4 pennyArticle" style="width: 100%;">
@@ -58,58 +58,8 @@
 	</div>
 </div><!-- end wrap span4 -->
 
-
-<script src="/wp-content/themes/Starkers/sheetsee.js?0"></script>
-<script src="/wp-content/themes/Starkers/tabletop.js" type="text/javascript"></script> 
-<script src="/wp-content/themes/Starkers/ICanHaz.js" type="text/javascript"></script> 
-
-<script id="instagram" type="text/html">
-  <table>
-  {{#rows}}
-    <tr><td class="postDate">{{instadate}}</td></tr>
-    <tr><td class="instaImg"><img src="{{instasource}}" width="209.25px"/></td></tr>
-    <tr><td class="instaCaption">{{instacaption}}</td></tr>
-  {{/rows}}
-  </table>
-</script>
-
-<script id="pocketReader" type="text/html">
-  <table>
-  {{#rows}}
-    <tr><td class="postDate">{{readdate}}</td></tr>
-    <tr><td class="instaCaption"><a href="{{readurl}}">{{readtitle}}</a></td></tr>
-  {{/rows}}
-  </table>
-</script>
-
-
-<script type="text/javascript">    
-  document.addEventListener('DOMContentLoaded', function() {
-     loadSpreadsheet()
-   }) 
-
-
-
-  showDataA = function(data) {
-		var data = data
-		var instaData = data
-
-		var instagram = ich.instagram({
-			"rows": getLast(instaData, 1)
-		})
-		document.getElementById('instagram').innerHTML = instagram;
-	}
-
-	showDataB = function(data) {
-		var data = data
-		var pocketData = data
-
- 		var pocketReader = ich.pocketReader({
-    	"rows": getLast(pocketData, 4)
- 		})
- 		document.getElementById('pocketReader').innerHTML = pocketReader; 
-		}
-
+<script>
+  mapbox.auto('map', 'jllord.pennies');
 </script>
 
 <?php get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>

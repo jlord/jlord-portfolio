@@ -153,7 +153,7 @@ time, .postDate {font-family: Open Sans; letter-spacing: .2em; font-size: 9px; c
 .postMeta {border-top: 2px solid #333; padding-top: 8px; height: 70px; float: right; margin: 0px 0px 25px 25px;}
 .tags {font-family: Open Sans; letter-spacing: .2em; font-size: 9px; color: #777; text-transform: uppercase; }
 #post p a, .loop p a, .single p a {padding-bottom: 1px; border-bottom: 1px solid #44FFB4;}
-#post p, #content p {font-size: 18px; line-height: 1.6em; padding-bottom: 14px;}
+#post p, #content p {font-size: 16px; line-height: 1.6em; padding-bottom: 14px;}
 #post {padding-bottom: 35px;}
 #post-to-fro {padding-top: 15px;}
 .aTag::after {content: ', '}
