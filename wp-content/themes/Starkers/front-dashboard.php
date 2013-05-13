@@ -57,7 +57,7 @@
 		<div id="pocketReader"></div>
 	</div>
 	<div class="span1">
-		<h3>Tweets & Intagrams</h3>
+		<h3>Tweets & Instagrams</h3>
 		<div id="tweetBox">
 		<?php
 			// Your twitter username.
