@@ -25,18 +25,15 @@
 		<div class="span3 bio">
 			<h3 class="capTitle">Jessica Lord</h3>
 			<h6><small>Hi</small></h6>
-			<p class="biobody">My thing is communicating issues - from urban systems to government transparency. I strive to make information
-			simple, clear and meaningful. I'm optimistic (and ¡energetic!) about creating impact and behavioral change. 
-			My background is in architecture and urban design but I've a got a strong tech side and am focusing
-			on using those skills to communicate through the web. I'm big on cities, open source, javascript, coffee, bikes and 
-			the awesome community of other folks who feel the same.</p> 
-			<p>Most recently through my CfA fellowship I built: <a href="/work/see-penny-work/">See Penny Work</a>, <a href="https://github.com/jllord/sheetsee.js">sheetsee.js</a> and <a href="/work/mta/">MTA Transit Map</a></p>
-			<p class="biobody">I hail from the heart of Georgia but for now I live in Oakland, California. <a href="http://mailto:to.jlord@gmail.com">Let me know</a> if you have a project in mind.</p>
+			<p class="biobody">I am a frontend designer and developer at <a href="https://github.com/blog/1504-jessica-lord-is-a-githubber" target="_blank">GitHub</a>. I made my way here via open government development at Code for America, urban design at the City of Boston's Redevelopment Authority and architecture in Atlanta and Georgia Tech. It all makes perfect sense.</p>
+
+      <p class="biobody">I've got a little open source library, <a href="" target="_blank">sheetsee.js</a>, for using Google Spreadsheets to power charts, maps and tables on websites real easy-like. During my Code for America fellowship I built: <a href="/work/see-penny-work/">See Penny Work</a>, <a href="https://github.com/jllord/sheetsee.js">sheetsee.js</a> and <a href="/work/mta/">MTA Transit Map</a>. I also like to make things myself and there is a website for that, too: <a href="http://www.ecabonline.com">ECAB</a>.</p>
+			<p class="biobody">I hail from the <a href="http://en.wikipedia.org/wiki/Warner_Robins,_Georgia" target="_blank">heart of Georgia</a> but for now I live in Oakland, California.</p>
 			<h3 class="capTitle">...</h3>
 			<ul><li>After an urban design study abroad year in Paris my senior year of college I shifted my focus from architecture to urban design. While working in architecture after graduation I quickly learned new Building Information Modeling software
 				and started visualizing the built environment, working on single family and multi-family scale projects from concept to construction documents as well as earning LEED BD&C accreditation. Working for the City of Boston in the Boston Redevelopment Authority's
 				Urban Design Technology group I contributed to and visualized design guidelines, height regulations, project reviews and earned LEED ND accreditation. I worked across departments often with Economic Development and the Mayor's Office of New Urban Mechanics. 
-				In 2012 I was accepted as a Code for America Fellow and focused on designing and building lightweight, open source technology for city government. 
+				In 2012 I was accepted as a Code for America Fellow and focused on designing and building lightweight, open source technology for city government. Before joining GitHub I was lucky to squeeze in Maker-in-Residence time at DIY.org where I built out the Hacker Skills. 
 
 		</li></ul><p></p>
 
@@ -44,7 +41,7 @@
 			<h3 class="capTitle">Contact</h3>
 			<h6><small>e Ways</small></h6>
 			<ul>
-				<li><a href="http://www.github.com/jllord">Github</a></li>
+				<li><a href="http://www.github.com/jllord">GitHub</a></li>
 				<li><a href="mailto:to.jlord@gmail.com?subject=Hi!">to.jlord@gmail.com</a></li>
 				<li><a href="http://www.twitter.com/jllord">@jllord</a></li>
 				<li><a href="#">#codeforamerica on freenode.net</a></li>
@@ -60,6 +57,9 @@
 			<h3 class="capTitle">Experience</h3>
 			<h6><small>Work</small></h6>
 			<ul>
+				<li>GitHub, Inc, Frontend Superstar, San Francisco</li>
+				<li>Mozilla-Knight Open News Code Sprint, Sheetsee.js</li>
+				<li>DIY.org, Maker-in-Residence Haker Skills, San Francisco</li>
 				<li>Code for America, 2012 Fellow, San Francisco</li>
 				<li>Jr. Urban Designer, Boston Redevelopment Auth., City of Boston</li>
 				<li>Intern Architect, Rutledge-Alcock Architects, Atlanta</li>
@@ -79,6 +79,7 @@
 			<ul>
 				<li>State of the Map, 2012</li>
 				<li><a href="http://www.youtube.com/watch?v=Q76bKK229aM" target="_blank">Code for America Summit, 2012</a></li>
+				<li>Farmhouse Conf 4</li>
 			</ul>
 		</div>
 
