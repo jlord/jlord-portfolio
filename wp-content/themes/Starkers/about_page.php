@@ -27,7 +27,7 @@
 			<h6><small>Hi</small></h6>
 			<p class="biobody">I am a frontend designer and developer at <a href="https://github.com/blog/1504-jessica-lord-is-a-githubber" target="_blank">GitHub</a>. I made my way here via open government development at Code for America, urban design at the City of Boston's Redevelopment Authority and architecture in Atlanta and Georgia Tech. It all makes perfect sense.</p>
 
-      <p class="biobody">I've got a little open source library, <a href="" target="_blank">sheetsee.js</a>, for using Google Spreadsheets to power charts, maps and tables on websites real easy-like. During my Code for America fellowship I built: <a href="/work/see-penny-work/">See Penny Work</a>, <a href="https://github.com/jlord/sheetsee.js">sheetsee.js</a> and <a href="/work/mta/">MTA Transit Map</a>. I also like to make things myself and there is a website for that, too: <a href="http://www.ecabonline.com">ECAB</a>.</p>
+      <p class="biobody">I've got a little open source library, <a href="http://jlord.github.io/sheetsee.js" target="_blank">sheetsee.js</a>, for using Google Spreadsheets to power charts, maps and tables on websites real easy-like. During my Code for America fellowship I built: <a href="/work/see-penny-work/">See Penny Work</a>, <a href="https://github.com/jlord/sheetsee.js">sheetsee.js</a> and <a href="/work/mta/">MTA Transit Map</a>. I also like to make things myself and there is a website for that, too: <a href="http://www.ecabonline.com">ECAB</a>.</p>
 			<p class="biobody">I hail from the <a href="http://en.wikipedia.org/wiki/Warner_Robins,_Georgia" target="_blank">heart of Georgia</a> but for now I live in Oakland, California.</p>
 			<h3 class="capTitle">...</h3>
 			<ul><li>After an urban design study abroad year in Paris my senior year of college I shifted my focus from architecture to urban design. While working in architecture after graduation I quickly learned new Building Information Modeling software
@@ -57,9 +57,9 @@
 			<h3 class="capTitle">Experience</h3>
 			<h6><small>Work</small></h6>
 			<ul>
-				<li>GitHub, Inc, Frontend Superstar, San Francisco</li>
+				<li>GitHub, Inc, Internet Coder, San Francisco</li>
 				<li>Mozilla-Knight Open News Code Sprint, Sheetsee.js</li>
-				<li>DIY.org, Maker-in-Residence Haker Skills, San Francisco</li>
+				<li>DIY.org, Maker-in-Residence: Haker Skills, San Francisco</li>
 				<li>Code for America, 2012 Fellow, San Francisco</li>
 				<li>Jr. Urban Designer, Boston Redevelopment Auth., City of Boston</li>
 				<li>Intern Architect, Rutledge-Alcock Architects, Atlanta</li>
