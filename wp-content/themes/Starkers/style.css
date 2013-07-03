@@ -161,7 +161,7 @@ time, .postDate {font-family: Open Sans; letter-spacing: .2em; font-size: 9px; c
 a img {border: none; background: #fff;}
 #post ul, #content article ul {list-style: disc; padding-left: 20px; margin-bottom: 24px;}
 #post li, #content.loop article li {font-size: 16px; line-height: 1.5em; padding: 6px 0 0 4px; list-style: disc; font-weight: 300;}
-#post blockquote p {font-family: Merriweather, Baskerville; font-size: 16px; padding-left: 10px; border-left: 1px solid #e6e6e6;}
+#post blockquote p, blockquote p {font-family: Open Sans, Arial; font-size: 16px; padding-left: 10px; border-left: 2px solid #e6e6e6;}
 #post h3, #content article h3 {padding-bottom: 14px;}
 #sources {background: #eee; font-family: Open Sans; padding: 10px;}
 #sources h3, #content article h3 {font-size: 14px; font-weight: 700;}
