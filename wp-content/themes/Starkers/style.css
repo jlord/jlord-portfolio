@@ -106,7 +106,7 @@ header ul {position: relative; display: inline-block; list-style: none; margin: 
 
 header li {float: left; padding: 5px; font-family: Merriweather, Georgia, serif; font-size: 12px; margin: 0px;}
 header li a {padding: 0px; border: none; color: #333; margin: 0px;}
-.category {font-style: italic; font-family: Merriweather;}
+/*.category {font-style: italic; font-family: Merriweather;}*/
 .field {margin: 8px 0px; letter-spacing: .2em; font-weight: 700; font-family: Open Sans, Arial, sans-serif;}
 .name {font-size: 11px;}
 li a img {padding-bottom: 5px;}
@@ -192,13 +192,14 @@ input	{border: 0px; border-bottom: 1px dotted #333; font-family: Merriweather, G
 textarea {padding: 6px; font-family: Merriweather, Georgia, serif; font-size: 13px; background: #eeeeee; border: none;}
 #submit {background: #E5E53E; border: none; font-family: Open Sans, Arial, sans-serif; font-size: 12px; text-transform: uppercase; padding: 3px 8px;}
 
-/* ARCHIVE */
-.archive h1 {font-size: 22px; padding-bottom: 12px;}
-.archive .postDate {padding-bottom: 12px;}
-#content.archivePage p {font-size: 14px; line-height: normal;}
-#content article {padding-bottom: 24px;}
-#content.archivePage a {color: #333;}
-.archivePage h2 {font-family: Open Sans, Arial, sans-serif; font-weight: 500;}
+/* ARCHIVE AND CATEGORY */
+.archive h1, .category h1 {font-size: 22px; padding-bottom: 12px;}
+.archive .postDate, .category .postDate {padding-bottom: 12px;}
+#content.archivePage p, #content.category p {font-size: 14px; line-height: normal;}
+#content article{padding-bottom: 24px;}
+#content.archivePage a, #content.category a {color: #333;}
+.archivePage h2, .category h2 {font-family: Open Sans, Arial, sans-serif; font-weight: 500;}
+.archivePage img.bigImg, .content img.bigImg {width: 100%;}
 
 
 /* BLOG LOOP */
