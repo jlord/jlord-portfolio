@@ -19,7 +19,7 @@
 	</div>
 	<div class="span2">
 		<h3 class="box-header">Specifically</h3>
-		<p class="sm-sans">I work at <a href="http://www.github.com" target="_blank">GitHub</a> with really awesome people making an awesome tool for development and open source. I work on frontend things, design, dev and occassionally I toy with Node. I've got a little open source library, <a href="http://jllord/github.com/sheetsee.js" target="_blank">sheetsee.js</a>, that makes it easy to make visualzations websites from Google Spreadsheets.</p>
+		<p class="sm-sans">I work at <a href="http://www.github.com" target="_blank">GitHub</a> with really awesome people making an awesome tool for development and open source. I work on frontend things, design, dev and occassionally I toy with Node. I've got a little open source library, <a href="http://jlord.github.com/sheetsee.js" target="_blank">sheetsee.js</a>, that makes it easy to make visualzations websites from Google Spreadsheets.</p>
 
 <!-- 				<p class="sm-sans">I’ll be spending the next few months contracting at the fantastic <a href="http://www.diy.org" target="_blank">DIY.org</a> to build out the hacker skills and challenges; taking my CfA project <a href="http://jllord.github.com/sheetsee.js" target="_blank">sheetsee.js</a> to the next level through a Code Sprint grant from <a href="http://www.mozillaopennews.org/" target="_blank">Mozilla and the Knight Foundation</a>; and proudly as a submission reader in Knight Foundation’s <a href="http://www.newschallenge.org" target="_blank">Open Gov News Challenge</a>	.</p> -->
 	</div>
