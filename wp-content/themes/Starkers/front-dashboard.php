@@ -19,9 +19,8 @@
 	</div>
 	<div class="span2">
 		<h3 class="box-header">Specifically</h3>
-		<p class="sm-sans">I work at <a href="http://www.github.com" target="_blank">GitHub</a> with really awesome people making an awesome tool for development and open source. I work on frontend things, design, dev and occassionally I toy with Node. I've got a little open source library, <a href="http://jlord.github.com/sheetsee.js" target="_blank">sheetsee.js</a>, that makes it easy to make visualzations websites from Google Spreadsheets.</p>
+		<p class="sm-sans">I work at <a href="http://www.github.com" target="_blank">GitHub</a> with really awesome people making awesomes tool for development and open source. I work on frontend dev things, gov things, design things, occassionally I toy with Node. I've got a little open source library, <a href="http://jlord.github.io/sheetsee.js" target="_blank">sheetsee.js</a>, that makes it easy to make visualzations websites from Google Spreadsheets.</p>
 
-<!-- 				<p class="sm-sans">I’ll be spending the next few months contracting at the fantastic <a href="http://www.diy.org" target="_blank">DIY.org</a> to build out the hacker skills and challenges; taking my CfA project <a href="http://jllord.github.com/sheetsee.js" target="_blank">sheetsee.js</a> to the next level through a Code Sprint grant from <a href="http://www.mozillaopennews.org/" target="_blank">Mozilla and the Knight Foundation</a>; and proudly as a submission reader in Knight Foundation’s <a href="http://www.newschallenge.org" target="_blank">Open Gov News Challenge</a>	.</p> -->
 	</div>
 
 	</div>
@@ -61,23 +60,8 @@
 	<div class="span1">
 		<h3>Tweets & Instagrams</h3>
 		<div id="tweetBox">
-		<?php
-			// Your twitter username.
-			$username = "jllord";
-			$prefix = "<small><a href=\"http://www.twitter.com/jllord\">@jllord</a></small><div id='tweet'><p>";
-			$suffix = "</p></div>";
-			$feed = "http://search.twitter.com/search.atom?q=from:" . $username . "&rpp=1";
-			function parse_feed($feed) {
-			    $stepOne = explode("<content type=\"html\">", $feed);
-			    $stepTwo = explode("</content>", $stepOne[1]);
-			    $tweet = $stepTwo[0];
-			    $tweet = str_replace("&lt;", "<", $tweet);
-			    $tweet = str_replace("&gt;", ">", $tweet);
-			    return $tweet;
-			}
-			$twitterFeed = file_get_contents($feed);
-			echo stripslashes($prefix) . parse_feed($twitterFeed) . stripslashes($suffix);
-			?>
+			<small><a href="http://www.twitter.com/jllord" target="_blank">twitter/jllord</a></small>
+			<div id="twitterTweet"></div>
 		</div>
 				<div class="instaBox">
 			<small><a href="http://instagram.com/jlord" target="_blank">instagram/jlord</a></small>
@@ -130,6 +114,15 @@
   </table>
 </script>
 
+<script id="twitterTweet" type="text/html">
+	<table>
+	{{#rows}}
+		<tr><td class="postDate">{{date}}</td></tr>
+		<tr><td class="instaCaption" style="line-height: 24px;">{{{tweet}}}</td>
+		{{/rows}}
+	</table>
+</script>
+
 
 <script type="text/javascript">    
   document.addEventListener('DOMContentLoaded', function() {
@@ -145,13 +138,10 @@
 		var instagram = ich.instagram({
 			"rows": getLast(instaData, 1)
 		})
-		document.getElementById('instagram').innerHTML = instagram;
+		document.getElementById('instagram').innerHTML = instagram
 
 		return instaData
 	}
-
-
-	
 
 	showDataB = function(data) {
 		var data = data
@@ -160,9 +150,70 @@
  		var pocketReader = ich.pocketReader({
     	"rows": getLast(pocketData, 6)
  		})
- 		document.getElementById('pocketReader').innerHTML = pocketReader; 
-		}
+ 		document.getElementById('pocketReader').innerHTML = pocketReader;
+	}
+		
+	showDataC = function(data) {
+		var data = data
+		var twitterData = data.reverse()
+		// var tweetData = lowerCaseDate(twitterData[0])
+		// console.log("tw", twitterData)
+		var tweet = findLinks(twitterData[0], tweetMentions)
+		twitterData[0].tweet = tweet
+		console.log('replaced tweet', twitterData[0])
 
+ 		var twitterTweet = ich.twitterTweet({
+ 			"rows": twitterData[0]
+ 		})
+ 		document.getElementById('twitterTweet').innerHTML = twitterTweet
+	}
+	
+	function findLinks(tweet, cb) {
+		if (tweet.tweet) {
+			var linkPattern = /(^|\s)((https?:\/\/)?[\w-]+(\.[\w-]+)+\.?(:\d+)?(\/\S*)?)/gi
+			var tweet = tweet.tweet
+			var links = tweet.match(linkPattern)
+			var linkLinks = linkLink(links)
+			var newTweet = injectLinks(tweet, links, linkLinks)
+			return tweetMentions(newTweet)
+		}
+	}
+
+	function tweetMentions(tweet) {
+		if (tweet) {
+			var mentionPattern = /\B@[a-z0-9_-]+/gi
+			var mentions = tweet.match(mentionPattern)
+			var linkMentions = linkMention(mentions)
+			var newTweet = injectLinks(tweet, mentions, linkMentions)
+		}
+	return newTweet
+	}
+	
+	function linkMention(mentions) {
+		var linkMentions = []
+		mentions.forEach(function(mention){
+			mention = '<a href="http://www.twittter.com/' + mention + '" target="_blank">' + mention + '</a>'
+			linkMentions.push(mention)
+		})
+		return linkMentions
+	}
+	
+	function linkLink(links) {
+		var linkLinks = []
+		links.forEach(function(link) {
+			link = '<a href="' + link + '" target="_blank">' + link + '</a>'
+			linkLinks.push(link)
+		})
+		return linkLinks
+	}
+	
+	function injectLinks(tweet, mentions, linkMentions) {
+		for (var i = 0; i < mentions.length; i++) {
+		  var newTweet = tweet.replace(mentions[i], linkMentions[i])
+		}
+		return newTweet
+	}
+	
 </script>
 
 <?php get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>

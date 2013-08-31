@@ -27,7 +27,6 @@
 				<li><a href="/hello/">WORK</a></li>
 				<li><a href="/blog/">BLOG</a></li>
 				<li><a href="/about/">ABOUT</a></li>
-				<li><a href="/dashboard/">DASHBOARD</a></li>
 			</ul>
 		</div>
 

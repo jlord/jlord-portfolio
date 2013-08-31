@@ -1,4 +1,3 @@
-
 	jQuery(document).ready(function($) {
 
 	$('a.map').click(function() {
@@ -36,4 +35,11 @@ $('a.showall').click(function() {
 });
 			
 });
+
+function cleanDates(data) {
+	data.forEach(function (item) {
+		item.date = item.date.split(" at")[0]
+	})
+return data
+}
 
