@@ -136,7 +136,7 @@
 		var instaData = data
 
 		var instagram = ich.instagram({
-			"rows": getLast(instaData, 1)
+			"rows": instaData[instaData.length - 1]
 		})
 		document.getElementById('instagram').innerHTML = instagram
 
@@ -154,65 +154,78 @@
 	}
 		
 	showDataC = function(data) {
-		var data = data
-		var twitterData = data.reverse()
-		// var tweetData = lowerCaseDate(twitterData[0])
-		// console.log("tw", twitterData)
-		var tweet = findLinks(twitterData[0], tweetMentions)
-		twitterData[0].tweet = tweet
-		console.log('replaced tweet', twitterData[0])
+    var lastTweet = data[data.length - 1]
+		var tweet = findLinks(lastTweet)
+    var tweetData = {"tweet": tweet}
+    
+     var twitterTweet = ich.twitterTweet({
+       "rows": tweetData
+     })
+     document.getElementById('twitterTweet').innerHTML = twitterTweet
+	}
+  
+  function getLast(array, howMany) {
+    start = array.length
+    cut = start - howMany
+    if (start < 12) {
+    return array
+    } else {
+      array = array.splice(cut)
+      return array.reverse()
+    }
+  }
+	
+  function findLinks(tweet) {
+    if (!tweet.tweet) return
+      var linkPattern = /(^|\s)((https?:\/\/)?[\w-]+(\.[\w-]+)+\.?(:\d+)?(\/\S*)?)/gi
+      
+      if (!tweet.tweet.match(linkPattern)) {
+        return tweetMentions(tweet.tweet)
+      } else {
+        var linkLinks = linkLink(links)
+        var newTweet = injectLinks(theTweet, links, linkLinks)
+        tweetMentions(newTweet)
+      }       
+  }
 
- 		var twitterTweet = ich.twitterTweet({
- 			"rows": twitterData[0]
- 		})
- 		document.getElementById('twitterTweet').innerHTML = twitterTweet
-	}
-	
-	function findLinks(tweet, cb) {
-		if (tweet.tweet) {
-			var linkPattern = /(^|\s)((https?:\/\/)?[\w-]+(\.[\w-]+)+\.?(:\d+)?(\/\S*)?)/gi
-			var tweet = tweet.tweet
-			var links = tweet.match(linkPattern)
-			var linkLinks = linkLink(links)
-			var newTweet = injectLinks(tweet, links, linkLinks)
-			return tweetMentions(newTweet)
-		}
-	}
-
-	function tweetMentions(tweet) {
-		if (tweet) {
-			var mentionPattern = /\B@[a-z0-9_-]+/gi
-			var mentions = tweet.match(mentionPattern)
-			var linkMentions = linkMention(mentions)
-			var newTweet = injectLinks(tweet, mentions, linkMentions)
-		}
-	return newTweet
-	}
-	
-	function linkMention(mentions) {
-		var linkMentions = []
-		mentions.forEach(function(mention){
-			mention = '<a href="http://www.twittter.com/' + mention + '" target="_blank">' + mention + '</a>'
-			linkMentions.push(mention)
-		})
-		return linkMentions
-	}
-	
-	function linkLink(links) {
-		var linkLinks = []
-		links.forEach(function(link) {
-			link = '<a href="' + link + '" target="_blank">' + link + '</a>'
-			linkLinks.push(link)
-		})
-		return linkLinks
-	}
-	
-	function injectLinks(tweet, mentions, linkMentions) {
-		for (var i = 0; i < mentions.length; i++) {
-		  var newTweet = tweet.replace(mentions[i], linkMentions[i])
-		}
-		return newTweet
-	}
+  function tweetMentions(tweet) {
+    if (!tweet) return
+    var mentionPattern = /\B@[a-z0-9_-]+/gi
+    
+    if (tweet.match(mentionPattern)) {
+      var mentions = tweet.match(mentionPattern)
+      var linkMentions = linkMention(mentions)
+      var newTweet = injectLinks(tweet, mentions, linkMentions)
+      return newTweet
+    } else { return }
+  }
+  
+  function linkMention(mentions) {
+    if (!mentions) return
+    var linkMentions = []
+    mentions.forEach(function(mention){
+      mention = '<a href="http://www.twittter.com/' + mention + '" target="_blank">' + mention + '</a>'
+      linkMentions.push(mention)
+    })
+    return linkMentions
+  }
+  
+  function linkLink(links) {
+    if (!links) return
+    var linkLinks = []
+    links.forEach(function(link) {
+      link = '<a href="' + link + '" target="_blank">' + link + '</a>'
+      linkLinks.push(link)
+    })
+    return linkLinks
+  }
+  
+  function injectLinks(tweet, mentions, linkMentions) {
+    for (var i = 0; i < mentions.length; i++) {
+      var newTweet = tweet.replace(mentions[i], linkMentions[i])
+    }
+    return newTweet
+  }
 	
 </script>
 
