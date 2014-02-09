@@ -119,7 +119,7 @@
 	{{#rows}}
 		<tr><td class="postDate">{{date}}</td></tr>
 		<tr><td class="instaCaption" style="line-height: 24px;">{{{tweet}}}</td>
-		{{/rows}}
+	{{/rows}}
 	</table>
 </script>
 

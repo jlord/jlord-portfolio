@@ -1,10 +1,10 @@
 var YEARS = ["year2012", "year2013", "year2014", "year2015", "year2016", "year2017", "year2018", "year2019"]
-var URL = 'https://docs.google.com/spreadsheet/pub?key=0Ao5u1U6KYND7dGRZbTUwd3JQZ1k3OE9KTVZqZUYwZHc&single=true&gid=0&output=html'
-var URL2 = 'https://docs.google.com/spreadsheet/pub?key=0Ao5u1U6KYND7dERheVpFZThEUkdPZnFXXzMxTzJ3dEE&single=true&gid=0&output=html'
-var URL3 = '0Ao5u1U6KYND7dFI5bFRFTG5pd3E5WG1EYjEta2YzeWc'
+var URL1 = '0Ao5u1U6KYND7dG9CRWdjeVB6dGYyN3c3RktocExUV1E' // instagram
+var URL2 = '0Ao5u1U6KYND7dERheVpFZThEUkdPZnFXXzMxTzJ3dEE' // pocket
+var URL3 = '0Ao5u1U6KYND7dDd2RTBwajZrT3pEc2p2LVVWc0o0WVE' // twitter
 
 function loadSpreadsheet() {
-  var a = Tabletop.init( { key: URL, callback: showDataA, simpleSheet: true } )
+  var a = Tabletop.init( { key: URL1, callback: showDataA, simpleSheet: true } )
   var b = Tabletop.init( { key: URL2, callback: showDataB, simpleSheet: true } )
 	var c = Tabletop.init( { key: URL3, callback: showDataC, simpleSheet: true } ) 
 }
