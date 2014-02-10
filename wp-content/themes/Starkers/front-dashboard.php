@@ -182,9 +182,10 @@
       if (!tweet.tweet.match(linkPattern)) {
         return tweetMentions(tweet.tweet)
       } else {
+        var links = tweet.tweet.match(linkPattern)
         var linkLinks = linkLink(links)
-        var newTweet = injectLinks(theTweet, links, linkLinks)
-        tweetMentions(newTweet)
+        var newTweet = injectLinks(tweet.tweet, links, linkLinks)
+        return tweetMentions(newTweet)
       }       
   }
 
@@ -204,8 +205,8 @@
     if (!mentions) return
     var linkMentions = []
     mentions.forEach(function(mention){
-      mention = '<a href="http://www.twittter.com/' + mention + '" target="_blank">' + mention + '</a>'
-      linkMentions.push(mention)
+      var wrap = "<a href='http://www.twittter.com/" + mention + "' target='_blank'>" + mention + "</a>"
+      linkMentions.push(wrap)
     })
     return linkMentions
   }
@@ -221,10 +222,10 @@
   }
   
   function injectLinks(tweet, mentions, linkMentions) {
-    for (var i = 0; i < mentions.length; i++) {
-      var newTweet = tweet.replace(mentions[i], linkMentions[i])
-    }
-    return newTweet
+    for (var i = 0; i <= mentions.length; i++) {
+      tweet = tweet.replace(mentions[i], linkMentions[i])
+      if (i === mentions.length) return tweet
+    }    
   }
 	
 </script>
