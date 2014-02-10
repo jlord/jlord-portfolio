@@ -176,7 +176,6 @@
   }
 	
   function findLinks(tweet) {
-    console.log(tweet.tweet)
     if (!tweet.tweet) return
       var linkPattern = /(^|\s)((https?:\/\/)?[\w-]+(\.[\w-]+)+\.?(:\d+)?(\/\S*)?)/gi
       
