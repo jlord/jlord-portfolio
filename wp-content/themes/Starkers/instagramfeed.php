@@ -17,7 +17,7 @@
 <?php get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 <div id="content" class="instagramFeed">
 	<div id="instagram" class="span4"><span class="spinner"><img src="http://jlord.s3.amazonaws.com/wp-content/uploads/fbi_spinner1.gif"></span></div><div class="clear"></div>
-	<div class="span3"><p>Just started a new spreadsheet... but here is my <a href="http://jlord.us/your-own-instagram-feed/">blog post</a> on how.</p></div>
+	<div class="span3"><p>These are the last 16 pictures in my Instagram feed. Here is my <a href="http://jlord.us/your-own-instagram-feed/">blog post</a> on how.</p></div>
 </div> 
 
 <script src="/wp-content/themes/Starkers/sheetsee.js?0"></script>
