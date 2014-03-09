@@ -128,6 +128,19 @@
   document.addEventListener('DOMContentLoaded', function() {
      loadSpreadsheet()
    }) 
+   
+   var URL1 = '0Ao5u1U6KYND7dG9CRWdjeVB6dGYyN3c3RktocExUV1E' // instagram
+   var URL2 = '0Ao5u1U6KYND7dFM4R1RKSUNZSXdNbkhpRUVZZ3pRTEE' // pocket
+   var URL3 = '0Ao5u1U6KYND7dDd2RTBwajZrT3pEc2p2LVVWc0o0WVE' // twitter
+
+   // old pocket, why did a new spreadsheet start?
+   // var URL2 = '0Ao5u1U6KYND7dERheVpFZThEUkdPZnFXXzMxTzJ3dEE'
+
+   function loadSpreadsheet() {
+     var a = Tabletop.init( { key: URL1, callback: showDataA, simpleSheet: true } )
+     var b = Tabletop.init( { key: URL2, callback: showDataB, simpleSheet: true } )
+     var c = Tabletop.init( { key: URL3, callback: showDataC, simpleSheet: true } ) 
+   }
 
 	 var instaData = []
 

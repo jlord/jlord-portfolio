@@ -34,6 +34,12 @@
   document.addEventListener('DOMContentLoaded', function() {
      loadSpreadsheet()
    }) 
+   
+   var URL1 = '0Ao5u1U6KYND7dG9CRWdjeVB6dGYyN3c3RktocExUV1E' // instagram
+
+   function loadSpreadsheet() {
+     var a = Tabletop.init( { key: URL1, callback: showDataA, simpleSheet: true } )
+   }
 
   showDataA = function(data) {
 		var instagram = ich.instagram({
