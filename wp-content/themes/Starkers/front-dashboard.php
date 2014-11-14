@@ -15,11 +15,12 @@
 <div class="span4 hi-currently">
 	<div class="span2">
 		<h1>Hello</h1>
-		<p><strong>Fun fact everyone</strong>, I actually have a <a href="http://jlord.github.io"><strong>new website</strong></a>. But I still like this one and didn't have the heart to pull it down. So browse if you'd like, but current bits are on the <a href="http://jlord.github.io"><strong>new site</strong></a>.</p>
+		<p>I spend my time in the spaces and sometimes intersections of open source, web development, urban design, government technology and information design. All the things. Also bikes, Oakland, coffee.</p>
 	</div>
 	<div class="span2">
 		<h3 class="box-header">Specifically</h3>
-		<p class="sm-sans">I work at <a href="http://www.github.com" target="_blank">GitHub</a> with really awesome people making awesomes tool for development and open source. I work on frontend dev things, gov things, design things and Node.jss things. I've got a little open source library, <a href="http://jlord.github.io/sheetsee.js" target="_blank">sheetsee.js</a>, that makes it easy to make visualzations websites from Google Spreadsheets.</p>
+		<p class="sm-sans">I work at <a href="http://www.github.com" target="_blank">GitHub</a> with really awesome people making awesomes tool for development and open source. I work on frontend dev things, gov things, design things, occassionally I toy with Node. I've got a little open source library, <a href="http://jlord.github.io/sheetsee.js" target="_blank">sheetsee.js</a>, that makes it easy to make visualzations websites from Google Spreadsheets.</p>
+
 	</div>
 
 	</div>
@@ -35,7 +36,7 @@
 				<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 				 <?php if ( has_post_thumbnail()) the_post_thumbnail(); ?>
 				<?php  the_excerpt(); ?>
-			<?php endforeach; ?>
+			<?php endforeach; ?> 
 		</div>
 		<h4>More Entries</h4>
 			<div id="fp-recent-entries">
@@ -73,10 +74,10 @@
 	<div class="span4 fd-section">
 		<div class="row-titles"><span class="span2"><h3>Recent Work</h3></span><span class="span2"><h3>Recent ECAB Projects</h3></span></div>
 		<div class="row">
-
+			
 			<div class="thumbnail"><a href="/work/see-penny-work/"><img class="thumb" src="/wp-content/uploads/seepennywork_thumb.png"></a></div>
 			<div class="thumbnail"><a href="/work/future-aloof/"><img class="thumb" src="/wp-content/uploads/future-aloof-thumb.png"></a></div>
-
+			
 			<div class="thumbnail"><a href="http://www.ecabonline.com/2013/03/hanging-herb-garden.html" target="_blank"><img class="thumb" src="/wp-content/uploads/ecab1.png"></a></div>
 			<div class="thumbnail"><a href="http://www.ecabonline.com/2013/01/naturally-dyed-tea-towels.html" target="_blank"><img class="thumb" src="/wp-content/uploads/ecab2.png"></a></div>
 		</div>
@@ -91,8 +92,8 @@
 
 
 <script src="/wp-content/themes/Starkers/sheetsee.js?0"></script>
-<script src="/wp-content/themes/Starkers/tabletop.js" type="text/javascript"></script>
-<script src="/wp-content/themes/Starkers/ICanHaz.js" type="text/javascript"></script>
+<script src="/wp-content/themes/Starkers/tabletop.js" type="text/javascript"></script> 
+<script src="/wp-content/themes/Starkers/ICanHaz.js" type="text/javascript"></script> 
 
 <script id="instagram" type="text/html">
   <table>
@@ -123,11 +124,11 @@
 </script>
 
 
-<script type="text/javascript">
+<script type="text/javascript">    
   document.addEventListener('DOMContentLoaded', function() {
      loadSpreadsheet()
-   })
-
+   }) 
+   
    var URL1 = '0Ao5u1U6KYND7dG9CRWdjeVB6dGYyN3c3RktocExUV1E' // instagram
    var URL2 = '0Ao5u1U6KYND7dFM4R1RKSUNZSXdNbkhpRUVZZ3pRTEE' // pocket
    var URL3 = '0Ao5u1U6KYND7dDd2RTBwajZrT3pEc2p2LVVWc0o0WVE' // twitter
@@ -138,7 +139,7 @@
    function loadSpreadsheet() {
      var a = Tabletop.init( { key: URL1, callback: showDataA, simpleSheet: true } )
      var b = Tabletop.init( { key: URL2, callback: showDataB, simpleSheet: true } )
-     var c = Tabletop.init( { key: URL3, callback: showDataC, simpleSheet: true } )
+     var c = Tabletop.init( { key: URL3, callback: showDataC, simpleSheet: true } ) 
    }
 
 	 var instaData = []
@@ -164,18 +165,18 @@
  		})
  		document.getElementById('pocketReader').innerHTML = pocketReader;
 	}
-
+		
 	showDataC = function(data) {
     var lastTweet = data[data.length - 1]
 		var tweet = findLinks(lastTweet)
     var tweetData = {"tweet": tweet}
-
+    
      var twitterTweet = ich.twitterTweet({
        "rows": tweetData
      })
      document.getElementById('twitterTweet').innerHTML = twitterTweet
 	}
-
+  
   function getLast(array, howMany) {
     start = array.length
     cut = start - howMany
@@ -186,11 +187,11 @@
       return array.reverse()
     }
   }
-
+	
   function findLinks(tweet) {
     if (!tweet.tweet) return
       var linkPattern = /(^|\s)((https?:\/\/)?[\w-]+(\.[\w-]+)+\.?(:\d+)?(\/\S*)?)/gi
-
+      
       if (!tweet.tweet.match(linkPattern)) {
         return tweetMentions(tweet.tweet)
       } else {
@@ -198,13 +199,13 @@
         var linkLinks = linkLink(links)
         var newTweet = injectLinks(tweet.tweet, links, linkLinks)
         return tweetMentions(newTweet)
-      }
+      }       
   }
 
   function tweetMentions(tweet) {
     if (!tweet) return
     var mentionPattern = /\B@[a-z0-9_-]+/gi
-
+    
     if (tweet.match(mentionPattern)) {
       var mentions = tweet.match(mentionPattern)
       var linkMentions = linkMention(mentions)
@@ -212,7 +213,7 @@
       return newTweet
     } else { return tweet }
   }
-
+  
   function linkMention(mentions) {
     if (!mentions) return
     var linkMentions = []
@@ -222,7 +223,7 @@
     })
     return linkMentions
   }
-
+  
   function linkLink(links) {
     if (!links) return
     var linkLinks = []
@@ -232,14 +233,15 @@
     })
     return linkLinks
   }
-
+  
   function injectLinks(tweet, mentions, linkMentions) {
     for (var i = 0; i <= mentions.length; i++) {
       tweet = tweet.replace(mentions[i], linkMentions[i])
       if (i === mentions.length) return tweet
-    }
+    }    
   }
-
+	
 </script>
 
 <?php get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>
+
